@@ -6,11 +6,9 @@ This project showcases a fully automated Security Operations Center (SOC) built 
 
 🏗️ Architecture & Lab Setup
 
-    SIEM Stack: Containerized Wazuh (Manager, Indexer, Dashboard).
-
-    Endpoints: Windows Server 2022, Windows 10/11, and Kali Linux.
-
-    Monitored Grouping: Specialized policies for Linux and Windows agents.
+SIEM Stack: Containerized Wazuh (Manager, Indexer, Dashboard).
+Endpoints: Windows Server 2022, Windows 10/11, and Kali Linux.
+Monitored Grouping: Specialized policies for Linux and Windows agents.
 
 🌐 Web Application Security (WAF Mode)
 
@@ -84,28 +82,27 @@ My custom ruleset consists of 49+ specialized detection rules, designed to reduc
 
 
 📊 Detection Logic Strategy
-How I Optimized the 49 Rules:
+How I Optimized the 80 Rules:
 
-    1-Noise Reduction: By using if_sid and if_group, I ensure that high-level alerts only fire when a baseline of suspicious activity is met. "Implemented parent-child rule relationships to suppress repetitive noise and only escalate verified attack chains."
+1-Noise Reduction: By using if_sid and if_group, I ensure that high-level alerts only fire when a baseline of suspicious activity is met. "Implemented parent-child rule relationships to suppress repetitive noise and only escalate verified attack chains.".
 
-    2-Severity Scoring: Rules are weighted based on risk. For example, a failed login is Level 5, but a Brute Force Success is Level 12.
+2-Severity Scoring: Rules are weighted based on risk. For example, a failed login is Level 5, but a Brute Force Success is Level 12.
 
-    3-Cross-Platform Visibility: Rules are designed to cover both Windows (Sysmon) and Linux (Auditd/Suricata) simultaneously.
-
+3-Cross-Platform Visibility: Rules are designed to cover both Windows (Sysmon) and Linux (Auditd/Suricata) simultaneously.
 
 ⚠️ Incident Alerting
 
-    Critical Alerts: Level 15 alerts trigger automated SMTP email notifications for immediate response.
+Critical Alerts: Level 15 alerts trigger automated SMTP email notifications for immediate response.
 
-    Resource Monitoring: Real-time alerting on system health and memory exhaustion.
-
+Resource Monitoring: Real-time alerting on system health and memory exhaustion.
+    
 🚀 Key Use Cases Verified
 
-    Malware Detection: Identified the EICAR test string and verified its malicious reputation via VirusTotal.
+Malware Detection: Identified the EICAR test string and verified its malicious reputation via VirusTotal.
 
-    Exploit Identification: Detected Python-based reverse shells and script-based network activity.
+Exploit Identification: Detected Python-based reverse shells and script-based network activity.
 
-    Brute Force Correlation: Successfully flagged automated SSH attacks and account takeover attempts.
+Brute Force Correlation: Successfully flagged automated SSH attacks and account takeover attempts.
 
 
 I will update rules and decoders if the projects I work on require them.
