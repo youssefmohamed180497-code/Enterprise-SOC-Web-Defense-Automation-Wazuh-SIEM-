@@ -1,0 +1,37 @@
+<!--
+  - Allowed static fields:
+  - location   - where the log came from (only on FTS)
+  - srcuser    - extracts the source username
+  - dstuser    - extracts the destination (target) username
+  - user       - an alias to dstuser (only one of the two can be used)
+  - srcip      - source ip
+  - dstip      - dst ip
+  - srcport    - source port
+  - dstport    - destination port
+  - protocol   - protocol
+  - id         - event id
+  - url        - url of the event
+  - action     - event action (deny, drop, accept, etc)
+  - status     - event status (success, failure, etc)
+  - extra_data - Any extra data
+-->
+
+<decoder name="auditd-local">
+    <prematch>^type=SYSCALL</prematch>
+</decoder>
+
+<decoder name="auditd-local-fields">
+    <parent>auditd-local</parent>
+    <regex>a0="?(\S+?)"? a1="?(\S+?)"? a2="?(\S+?)"? .* exe="?(\S+?)"? .* key="?(\S+?)"?</regex>
+    <order>audit.a0, audit.a1, audit.a2, audit.exe, audit.key</order>
+</decoder>
+
+<decoder name="network_monitor">
+  <program_name>network_monitor</program_name>
+</decoder>
+
+<decoder name="network_monitor_child">
+  <parent>network_monitor</parent>
+  <regex offset="after_parent">src_ip: (\S+), dst_ip: (\S+), local_port: (\d+), \w+: (\S+)</regex>
+  <order>srcip, dstip, local_port, process</order>
+</decoder>

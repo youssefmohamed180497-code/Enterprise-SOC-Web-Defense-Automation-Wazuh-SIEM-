@@ -1,0 +1,229 @@
+## ============================================================================
+## Auditd Rules Configuration - Wazuh Integration
+## Last Updated: 2026-04-04 14:10
+## Description: Comprehensive audit rules for threat detection and compliance
+## File Path : /etc/audit/rules.d/audit.rules
+## ============================================================================
+
+## ============================================================================
+## SECTION 1: BASE CONFIGURATION
+## ============================================================================
+
+## First rule - delete all existing rules to start fresh
+-D
+
+## Increase the buffers for high-load systems
+-b 8192
+--backlog_wait_time 60000
+-f 1
+
+## ============================================================================
+## SECTION 2: PRIVILEGE ESCALATION & USER MANAGEMENT
+## ============================================================================
+
+## Sudoers file changes (privilege escalation)
+-w /etc/sudoers -p wa -k privilege_escalation
+-w /etc/sudoers.d -p wa -k sudoers_change
+
+## Sudo binary execution
+-w /usr/bin/sudo -p x -k privilege_escalation
+
+## User account files modifications
+-w /etc/passwd -p wa -k user_modification
+-w /etc/shadow -p wa -k user_modification
+-w /etc/group -p wa -k user_modification
+-w /etc/gshadow -p wa -k user_modification
+
+## User management binaries
+-w /usr/sbin/useradd -p x -k user_management
+-w /usr/sbin/usermod -p x -k user_management
+-w /usr/sbin/userdel -p x -k user_management
+-w /usr/sbin/passwd -p x -k password_change
+
+## ============================================================================
+## SECTION 3: SUSPICIOUS NETWORK ACTIVITY & REVERSE SHELLS
+## ============================================================================
+
+## Network tools (potential reverse shells)
+-w /usr/bin/nc -p x -k suspicious_network
+-w /usr/bin/ncat -p x -k suspicious_network
+-w /usr/bin/netcat -p x -k suspicious_network
+-w /usr/bin/socat -p x -k suspicious_network
+
+## Scripting languages with network capabilities
+-w /usr/bin/python3 -p x -k suspicious_network
+-w /usr/bin/python3.12 -p x -k suspicious_network
+-w /usr/bin/perl -p x -k suspicious_network
+-w /usr/bin/ruby -p x -k suspicious_network
+-w /usr/bin/lua -p x -k suspicious_network
+-w /usr/bin/node -p x -k suspicious_network
+
+## ============================================================================
+## SECTION 4: EXECUTION FROM SENSITIVE DIRECTORIES (MALWARE)
+## ============================================================================
+
+## Execution from /tmp (common malware staging)
+-a always,exit -F arch=b64 -S execve -F dir=/tmp -k execution_from_tmp
+
+## Execution from /dev/shm (fileless malware)
+-a always,exit -F arch=b64 -S execve -F dir=/dev/shm -k execution_from_shm
+
+## Execution from /var/tmp (persistent tmp)
+-a always,exit -F arch=b64 -S execve -F dir=/var/tmp -k execution_from_tmp
+
+## ============================================================================
+## SECTION 5: RECONNAISSANCE & NETWORK SNIFFING
+## ============================================================================
+
+## Port scanners
+-w /usr/bin/nmap -p x -k reconnaissance
+-w /usr/bin/masscan -p x -k reconnaissance
+-w /usr/bin/zmap -p x -k reconnaissance
+
+## Packet sniffers
+-w /usr/bin/tcpdump -p x -k packet_sniffing
+-w /usr/bin/tshark -p x -k packet_sniffing
+-w /usr/bin/wireshark -p x -k packet_sniffing
+
+## ============================================================================
+## SECTION 6: DATA EXFILTRATION & DOWNLOAD TOOLS
+## ============================================================================
+
+## Database dump tools
+-w /usr/bin/mysqldump -p x -k database_dump
+-w /usr/bin/pg_dump -p x -k database_dump
+-w /usr/bin/mongoexport -p x -k database_dump
+-w /usr/bin/sqlcmd -p x -k database_dump
+
+## Download tools (potential malware staging)
+-w /usr/bin/wget -p x -k suspicious_download
+-w /usr/bin/curl -p x -k suspicious_download
+
+## Data transfer tools
+-w /usr/bin/rsync -p x -k data_transfer
+-w /usr/bin/scp -p x -k data_transfer
+-w /usr/bin/sftp -p x -k data_transfer
+
+## Cloud sync tools
+-w /usr/bin/rclone -p x -k cloud_exfiltration
+-w /usr/local/bin/rclone -p x -k cloud_exfiltration
+
+## ============================================================================
+## SECTION 7: PERSISTENCE MECHANISMS
+## ============================================================================
+
+## Cron jobs (scheduled tasks)
+-w /etc/crontab -p wa -k cron_modification
+-w /etc/cron.d -p wa -k cron_modification
+-w /etc/cron.daily -p wa -k cron_modification
+-w /etc/cron.hourly -p wa -k cron_modification
+-w /var/spool/cron -p wa -k cron_modification
+
+## Systemd services
+-w /etc/systemd/system -p wa -k systemd_change
+-w /usr/lib/systemd/system -p wa -k systemd_change
+-w /lib/systemd/system -p wa -k systemd_change
+
+## SSH configuration (backdoor risk)
+-w /etc/ssh/sshd_config -p wa -k ssh_config_change
+-w /etc/ssh/ssh_config -p wa -k ssh_config_change
+-w /root/.ssh/authorized_keys -p wa -k ssh_authorized_keys
+-w /home/kali/.ssh/authorized_keys -p wa -k ssh_authorized_keys
+
+## Hosts file (DNS hijacking)
+-w /etc/hosts -p wa -k hosts_change
+-w /etc/resolv.conf -p wa -k dns_change
+
+## ============================================================================
+## SECTION 8: KERNEL & PROCESS INJECTION
+## ============================================================================
+
+## Kernel module operations (rootkit risk)
+-a always,exit -F arch=b64 -S init_module,delete_module,finit_module -k kernel_module
+
+## Process injection via ptrace
+-a always,exit -F arch=b64 -S ptrace -k process_injection
+
+## ============================================================================
+## SECTION 9: INSIDER THREAT - SENSITIVE DATA ACCESS
+## ============================================================================
+
+## HR/Employee data (Rule 101230)
+-w /hr/employees/ -p r -k hr_data_access
+-w /opt/hr/ -p r -k hr_data_access
+-w /var/hr/ -p r -k hr_data_access
+
+## Customer database (Rule 101231)
+-w /db/customers/ -p r -k customer_db_access
+-w /var/lib/mysql/ -p r -k database_access
+-w /var/lib/postgresql/ -p r -k database_access
+
+## Financial records (Rule 101220)
+-w /finance/ -p r -k financial_access
+-w /accounting/ -p r -k financial_access
+-w /var/finance/ -p r -k financial_access
+
+## Cryptocurrency wallets (Rule 101223)
+-w /home/kali/.bitcoin/ -p r -k crypto_wallet
+-w /home/kali/.ethereum/ -p r -k crypto_wallet
+-w /home/kali/.monero/ -p r -k crypto_wallet
+-w /root/.bitcoin/ -p r -k crypto_wallet
+-w /root/.ethereum/ -p r -k crypto_wallet
+
+## ============================================================================
+## SECTION 10: SSH KEY THEFT (Rule 101233)
+## ============================================================================
+
+## SSH private keys monitoring
+-w /home/kali/.ssh/id_rsa -p r -k ssh_key_theft
+-w /home/kali/.ssh/id_ecdsa -p r -k ssh_key_theft
+-w /home/kali/.ssh/id_ed25519 -p r -k ssh_key_theft
+-w /root/.ssh/id_rsa -p r -k ssh_key_theft
+-w /root/.ssh/id_ecdsa -p r -k ssh_key_theft
+-w /root/.ssh/id_ed25519 -p r -k ssh_key_theft
+
+## SSH directory access (broader monitoring)
+-w /home/kali/.ssh/ -p r -k ssh_key_access
+-w /root/.ssh/ -p r -k ssh_key_access
+
+## ============================================================================
+## SECTION 11: ARCHIVING & DATA COLLECTION (Rule 101212)
+## ============================================================================
+
+## Archive tools on sensitive directories
+-w /var/www/ -p r -k web_archive_test
+-w /home/ -p r -k home_archive_test
+-w /data/ -p r -k data_archive_test
+-w /opt/data/ -p r -k data_archive_test
+
+## Archive binaries execution
+-w /usr/bin/tar -p x -k archive_creation
+-w /usr/bin/zip -p x -k archive_creation
+-w /usr/bin/gzip -p x -k archive_creation
+-w /usr/bin/7z -p x -k archive_creation
+-w /usr/bin/rar -p x -k archive_creation
+
+## ============================================================================
+## SECTION 12: BULK EMAIL & COMMUNICATION (Rule 101232)
+## ============================================================================
+
+## Email tools (phishing risk)
+-w /usr/sbin/sendmail -p x -k bulk_email
+-w /usr/bin/mail -p x -k bulk_email
+-w /usr/bin/mutt -p x -k bulk_email
+-w /usr/bin/msmtp -p x -k bulk_email
+-w /usr/bin/postfix -p x -k bulk_email
+
+## ============================================================================
+## SECTION 13: GENERAL EXECUTION MONITORING
+## ============================================================================
+
+## Monitor all execve syscalls (comprehensive)
+-a always,exit -F arch=b64 -S execve -k exec_monitor
+
+## ============================================================================
+## SECTION 14: FINALIZATION
+## ============================================================================
+
+## Lock the audit configuration (requires reboot to change)
+-e 1
