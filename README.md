@@ -3,7 +3,7 @@
 📌 Project Overview
 
 This project showcases a fully automated Security Operations Center (SOC) built on Wazuh SIEM. It integrates endpoint protection, network monitoring, and web application security into a single pane of glass, mapped to the MITRE ATT&CK framework.
-![Wazuh Overview](screenshots/Overview.png)
+![Wazuh Overview](Screenshots/Overview.png)
 
 🏗️ Architecture & Lab Setup
 
