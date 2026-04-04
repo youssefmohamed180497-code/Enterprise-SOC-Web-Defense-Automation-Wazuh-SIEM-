@@ -27,8 +27,9 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
     Custom Rule: Developed Rule 102010 (Level 10) for high-accuracy XSS detection.
 
     Alert: Rule 102010 - XSS attempt detected.
+   Screenshots/XSS%20Reflected%20%26%20DOM.png
 
-3. Local File Inclusion (LFI)
+4. Local File Inclusion (LFI)
 
     Detection: Captured directory traversal attempts (/etc/passwd).
 
