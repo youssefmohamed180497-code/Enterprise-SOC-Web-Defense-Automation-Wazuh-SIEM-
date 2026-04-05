@@ -19,6 +19,14 @@ $ sudo apt install docker.io
 Password: ********
 ```
 
+<pre>
+```sh
+$ chmod +x install_wazuh_docker.sh
+$ sudo ./install_wazuh_docker.sh
+[INFO] Starting installation...
+```
+</pre>
+
 1. Deployment Options (Choose one)
 Option A: Docker Deployment (Fastest)
 
