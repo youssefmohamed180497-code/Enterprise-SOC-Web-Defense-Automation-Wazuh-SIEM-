@@ -55,6 +55,22 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
 
 All custom rules and alerts are mapped to MITRE ATT&CK techniques (e.g., Persistence, Privilege Escalation, Brute Force), allowing for a standardized understanding of adversary behavior.
 
+| Rule ID Range | MITRE Technique | Tactic |
+| :--- | :--- | :--- |
+| **100041 - 100046** | T1546, T1547 | Persistence |
+| **100100 - 100152** | T1110, T1078 | Initial Access |
+| **100200 - 100400** | T1003, T1055 | Credential Access, Defense Evasion |
+| **100600** | T1091 | Initial Access (Replication Through Removable Media) |
+| **101100 - 101191** | T1620, T1611 | Defense Evasion, Privilege Escalation |
+| **101200 - 101262** | T1110, T1114 | Initial Access, Collection |
+| **101310** | T1021, T1071 | Command and Control (Non-TTY Session) |
+| **101320 - 101322** | T1548 | Privilege Escalation (Sudo/Abuse) |
+| **101330 - 101332** | T1136 | Persistence (Create Account) |
+| **101340 - 101341** | T1222 | Defense Evasion (File Permissions) |
+| **101400 - 101440** | T1014, T1564 | Defense Evasion (Rootkit/Hidden Files) |
+| **101500 - 101511** | T1021, T1570 | Lateral Movement |
+| **102010 - 102030** | T1059, T1190 | Execution, Initial Access (Web Attacks) |
+
 🛡️ Advanced Detection Logic (The Brain)
 
 My custom ruleset consists of 80+ specialized detection rules, designed to reduce false positives and provide high-fidelity alerts. These rules are mapped to the MITRE ATT&CK matrix, covering the full attack lifecycle.
