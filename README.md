@@ -274,9 +274,6 @@ Brute Force Correlation: Successfully flagged automated SSH attacks and account 
 * Download Test curl http://google.com - wget http://google.com - for i in {1..6}; do curl http://google.com; sleep 1; done .
 * Test Shadow file(Password)  > sudo auditctl -w /etc/shadow -p r -k shadow_access
 
-###Project Roadmap
-![Project Mind Map](Screenshots//markmap.svg)
-
 
 ### 👨‍💻 Author
 
