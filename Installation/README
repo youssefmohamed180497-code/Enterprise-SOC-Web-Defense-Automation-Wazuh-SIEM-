@@ -13,6 +13,12 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 echo "Hello World"
 ```
 
+```console
+$ sudo apt update
+$ sudo apt install docker.io
+Password: ********
+```
+
 1. Deployment Options (Choose one)
 Option A: Docker Deployment (Fastest)
 
