@@ -3,7 +3,6 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 ### 1. Prerequisites
 * **Wazuh Manager:** Installed on Ubuntu/CentOS (v4.x recommended).
 * **Wazuh Agents:** Installed on Windows 10/11 and Kali Linux/Ubuntu.
-* **Root/Sudo Access:** Required for modifying configuration files.
 
 ### 2. Deploying Custom Rules (The Brain)
 1.  Navigate to your Wazuh Manager terminal.
