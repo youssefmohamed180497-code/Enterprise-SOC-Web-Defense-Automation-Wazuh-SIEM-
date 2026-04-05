@@ -11,7 +11,8 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 
 <pre>
 ```bash
-sudo apt install docker.io
+#!/bin/bash
+echo "Hello World"
 ```
 </pre>
 
