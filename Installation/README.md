@@ -5,8 +5,8 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 * **Wazuh Agents:** Installed on Windows 10/11 and Kali Linux/Ubuntu.
 
 ### 2. Deploying Custom Rules (The Brain)
-* **Navigate to your Wazuh Manager terminal.
-* **Open the local rules file:
+* Navigate to your Wazuh Manager terminal.
+* Open the local rules file:
 
 
 🚀Automated Deployment : 
