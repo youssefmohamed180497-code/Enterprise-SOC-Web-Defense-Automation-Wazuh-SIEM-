@@ -125,7 +125,57 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **100206** | Process Injection | Detects `CreateRemoteThread` or Process Hollowing techniques | 14 |
 | **100400** | DCsync Attack | Directory Replication Service access from a non-Domain Controller | 15 |
 
+4. USB Monitoring (1 Rule)
 
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **100600** | USB Device Connected | Unauthorized USB storage device plugged into a monitored host | 8 |
+
+5. Auditd Advanced Rules (15 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **101100** | Syscall Anomaly - ptrace | Process tracing/debugging detected (Potential code injection) | 10 |
+| **101101** | Kernel Module Loaded | `insmod`/`modprobe` execution detected (Potential Rootkit) | 11 |
+| **101102** | BPF Program Loaded | eBPF program loaded (Advanced stealth/rootkit indicator) | 13 |
+| **101103** | Container Escape - cgroup | cgroup breakout attempt detected from within a container | 14 |
+| **101104** | Container Escape - privileged | Privileged container escape attempt via `mknod` | 14 |
+| **101105** | Docker Socket Access | Unauthorized container access to `/var/run/docker.sock` | 12 |
+| **101106** | Capabilities Added | Process adding dangerous capabilities (e.g., `CAP_SYS_ADMIN`) | 11 |
+| **101107** | Namespace Manipulation | `setns()` syscall usage for namespace escape | 12 |
+| **101108** | Seccomp Bypass | Attempt to bypass seccomp security filters | 13 |
+| **101109** | Core Dump Generated | Sensitive process crashed (Potential memory/password extraction) | 9 |
+| **101110** | TTY Shell Spawned | Interactive shell spawned via script/expect (Post-Exploitation) | 10 |
+| **101111** | Hidden Process (LD_PRELOAD) | `LD_PRELOAD` environment variable used to hook system calls | 12 |
+| **101190** | Reconnaissance - System Info | `uname`, `hostname`, `id` commands executed in rapid sequence | 5 |
+| **101191** | Reconnaissance - Network | `netstat`, `ss`, `lsof` usage for internal network discovery | 5 |
+
+6. Fraud & Advanced Behavioral Detection (20 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **101200** | Account Takeover | Successful login immediately following 3+ failures (60s window) | 12 |
+| **101201** | Impossible Travel | Login detected from 2 distinct locations within impossible time | 11 |
+| **101202** | Credential Stuffing | Multiple failed logins with different users from a single IP | 10 |
+| **101203** | New Device Login | First-time login detected from an unrecognized device fingerprint | 7 |
+| **101204** | Password Spray Attack | Multiple usernames targeted with the same password pattern | 10 |
+| **101205** | MFA Bypass Attempt | Multiple MFA failures followed by a suspicious success | 13 |
+| **101206** | Session Hijacking | Active session cookie/token reuse from a different IP/User-Agent | 12 |
+| **101207** | Carding Attempt | Multiple payment failures using different card numbers | 9 |
+| **101208** | Bonus Abuse | Multiple account registrations originating from the same device | 8 |
+| **101212** | Data Exfiltration - Archive | `.zip`/`.tar` creation in sensitive or unusual directories | 11 |
+| **101216** | Container Breakout | `chroot` escape or `/proc` filesystem escape attempt | 14 |
+| **101260** | Crypto Mining - CPU | Sustained high CPU usage linked to known mining pool IPs | 10 |
+| **101262** | Ransomware File Activity | Mass file renaming/encryption (`.encrypted`, `.locked`, `.crypt`) | 15 |
+
+7. Session & Privilege Escalation (4 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **101310** | Stealth Login (No TTY) | Login without a TTY (Highly indicative of reverse shells/bots) | 12 |
+| **101320** | Sudo Command Executed | Detailed logging of all sudo command executions | 4 |
+| **101321** | Sudoers File Modified | Unauthorized edit of `/etc/sudoers` or using `visudo` | 13 |
+| **101322** | Sudo Exploit Attempt | Detection of known CVE exploits (e.g., CVE-2021-3156) | 15 |
 
 
 
