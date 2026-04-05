@@ -1,0 +1,3 @@
+Go to Agents Management > Summary > Depoly new agent > Choose MSI 32/64 bits > Wazuh Manager IP > Agent Name > Select Group Windows > copy to CMD agent
+Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.1-1.msi -OutFile $env:tmp\wazuh-agent; msiexec.exe /i $env:tmp\wazuh-agent /q WAZUH_MANAGER='Wazuh Manager IP' WAZUH_AGENT_GROUP='windows' WAZUH_AGENT_NAME='Agent Name' 
+NET START Wazuh
