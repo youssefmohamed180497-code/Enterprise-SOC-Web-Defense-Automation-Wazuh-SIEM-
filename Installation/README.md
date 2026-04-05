@@ -8,7 +8,8 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 * Navigate to your Wazuh Manager terminal.
 * Open the local rules file:
 
-### 3. Deploying Custom Decoder
+### 3. Deploying Custom Decoders
+* To ensure Wazuh correctly parses non-standard logs, you must apply the custom decoders included in this project.
 
   
 
@@ -47,5 +48,13 @@ sudo chown wazuh:wazuh /var/ossec/etc/rules/local_rules.xml
 sudo chmod 660 /var/ossec/etc/rules/local_rules.xml
 </pre>
 
+6- Apply Decoders to Wazuh Manager
+<pre>
+# Download and apply the custom decoder
+sudo curl -so /var/ossec/etc/decoders/local_decoder.xml https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/decoders/local_decoder.xml
 
+# Fix permissions
+sudo chown wazuh:wazuh /var/ossec/etc/decoders/local_decoder.xml
+sudo chmod 660 /var/ossec/etc/decoders/local_decoder.xml
+</pre>
 
