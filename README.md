@@ -263,6 +263,16 @@ Exploit Identification: Detected Python-based reverse shells and script-based ne
 
 Brute Force Correlation: Successfully flagged automated SSH attacks and account takeover attempts.
 
+### Testing 
+* To test the XSS rule, log the version and write `<script>alert("Hacked by Youssef")</script>` after the website URL.
+* "To test the SQL Injection rule, type ' OR 1=1 #
+* To test the XSS DOM rule, when choose Language and replace Language for this text >  '<script>alert(document.cookie)</script>' .
+* Hash theft (Dumping Hashes) - (Rule 101142)  > sudo cat /etc/shadow
+* The attacker is trying to find out the usernames on the system: (Run Rule 101141) > cat /etc/passwd OR grep "root" /etc/passwd .
+* #Network Scanner  (nmap , masscan, Wireshark ,  tcpdump )  > nmap -sS 127.0.0.1 - masscan 127.0.0.1 -p80 - sudo tcpdump -c 5 -i lo .
+* Download Test curl http://google.com - wget http://google.com - for i in {1..6}; do curl http://google.com; sleep 1; done .
+* Test Shadow file(Password)  > sudo auditctl -w /etc/shadow -p r -k shadow_access
+
 
 I will update rules and decoders if the projects I work on require them.
 
