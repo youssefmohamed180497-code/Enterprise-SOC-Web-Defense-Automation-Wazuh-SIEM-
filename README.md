@@ -20,9 +20,10 @@ To get this project running in your environment, follow the dedicated guides bel
 
 * Installation Guide: Automated scripts for Docker and Native deployment.
 
+* Detection Rules: The core ruleset for threat detection.
+
 * Custom Decoders: Logic for parsing specialized log formats.
 
-* Detection Rules: The core ruleset for threat detection.
 
 
 ### 🌐 Web Application Security (WAF Mode)
