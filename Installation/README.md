@@ -29,18 +29,19 @@ sudo ./install_wazuh_docker.sh
 </pre>
 
 
+### Endpoint Configuration (Adding Agents) > open File Linux Agent or Windows Agent 
 
-1. Deployment Options (Choose one)
-Option A: Docker Deployment (Fastest)
 
-This script prepares the OS, installs Docker, and starts the Wazuh stack.
-    chmod +x install_wazuh_docker.sh
-    sudo ./install_wazuh_docker.sh
+### Download and apply the custom ruleset
+<pre>
+sudo curl -so /var/ossec/etc/rules/local_rules.xml https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/rules/local_rules.xml
+</pre>
 
-Option B: Native Installation
+# Fix permissions
+<pre>
+sudo chown wazuh:wazuh /var/ossec/etc/rules/local_rules.xml
+sudo chmod 660 /var/ossec/etc/rules/local_rules.xml
+</pre>
 
-Use this for a more stable, long-term deployment on Ubuntu servers.
-chmod +x install_wazuh_native.sh
-sudo ./install_wazuh_native.sh
 
-2. Endpoint Configuration (Adding Agents) > open File Linux Agent or Windows Agent 
+
