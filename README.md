@@ -56,7 +56,9 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
 All custom rules and alerts are mapped to MITRE ATT&CK techniques (e.g., Persistence, Privilege Escalation, Brute Force), allowing for a standardized understanding of adversary behavior.
 
 🛡️ Advanced Detection Logic (The Brain)
+
 My custom ruleset consists of 80+ specialized detection rules, designed to reduce false positives and provide high-fidelity alerts. These rules are mapped to the MITRE ATT&CK matrix, covering the full attack lifecycle.
+
 1. Web Application Defense (L7/WAF Logic)
 
     XSS Precision (Rule 102010): Instead of generic web alerts, this rule specifically identifies script tags and alert functions in decoded URLs.
