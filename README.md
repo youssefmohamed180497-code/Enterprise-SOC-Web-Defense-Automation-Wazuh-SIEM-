@@ -102,6 +102,28 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **100045** | Startup Script Modified | Changes to `/etc/rc.local`, systemd services, init.d | 10 |
 | **100046** | SSH Key Authorized_keys | New SSH key added to `authorized_keys` file | 12 | 
 
+2. Remote Access Monitoring - RDP & SSH (5 Rules)
+
+   | Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **100100** | RDP Brute Force | 5+ failed RDP logins within 5 minutes | 10 |
+| **100101** | RDP Successful After Brute | Successful RDP login after multiple failures (Account Takeover) | 12 |
+| **100150** | SSH Connection from New Country | SSH login from geolocation not seen in 30 days | 8 |
+| **100151** | SSH Off-Hours Login | SSH login outside business hours (weekend/night) | 6 |
+| **100152** | SSH Root Login Enabled | Direct root login via SSH detected | 14 |
+
+3. Windows Advanced Threats (8 Rules)
+
+   | Rule ID | Name | Description | Severity |
+| :--- | :--- | :---: | :---: |
+| **100200** | LSASS Memory Access | Process attempting to access `lsass.exe` (Mimikatz style) | 15 |
+| **100201** | SAM Database Dump | Attempt to read SAM/SYSTEM/SECURITY registry hives | 15 |
+| **100202** | PowerShell Obfuscation | Base64 encoded or obfuscated PowerShell commands detected | 12 |
+| **100203** | WMI Event Subscription | Persistence via WMI event consumer insertion | 11 |
+| **100204** | Scheduled Task Creation | New scheduled task created via `schtasks` or XML | 9 |
+| **100205** | Service Creation | New Windows service installed (Persistence/Privilege Escalation) | 10 |
+| **100206** | Process Injection | Detects `CreateRemoteThread` or Process Hollowing techniques | 14 |
+| **100400** | DCsync Attack | Directory Replication Service access from a non-Domain Controller | 15 |
 
 1. Web Application Defense (L7/WAF Logic)
 
