@@ -10,10 +10,15 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 2.  Open the local rules file:
 
 <pre>
-```bash
+cat &lt;&lt;&#39;EOF&#39; &gt; install_wazuh_docker.sh
 #!/bin/bash
-echo "Hello World"
-```
+echo &quot;Starting Wazuh Installation...&quot;
+sudo apt update -y
+# باقي الأوامر هنا
+EOF
+
+chmod +x install_wazuh_docker.sh
+sudo ./install_wazuh_docker.sh
 </pre>
 
 
