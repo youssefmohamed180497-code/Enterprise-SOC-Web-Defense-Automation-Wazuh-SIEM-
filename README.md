@@ -8,7 +8,9 @@ This project showcases a fully automated Security Operations Center (SOC) built 
 🏗️ Architecture & Lab Setup
 
 SIEM Stack: Containerized Wazuh (Manager, Indexer, Dashboard).
+
 Endpoints: Windows Server 2022, Windows 10/11, and Kali Linux.
+
 Monitored Grouping: Specialized policies for Linux and Windows agents.
 
 🌐 Web Application Security (WAF Mode)
