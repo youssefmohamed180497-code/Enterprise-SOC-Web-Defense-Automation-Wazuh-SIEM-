@@ -14,8 +14,8 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 Option A: Docker Deployment (Fastest)
 
 This script prepares the OS, installs Docker, and starts the Wazuh stack.
-chmod +x install_wazuh_docker.sh
-sudo ./install_wazuh_docker.sh
+    chmod +x install_wazuh_docker.sh
+    sudo ./install_wazuh_docker.sh
 
 Option B: Native Installation
 
