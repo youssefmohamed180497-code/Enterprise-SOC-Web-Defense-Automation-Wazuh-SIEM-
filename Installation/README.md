@@ -8,6 +8,9 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 * Navigate to your Wazuh Manager terminal.
 * Open the local rules file:
 
+### 3. Deploying Custom Decoder
+
+  
 
 🚀Automated Deployment : 
 
