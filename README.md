@@ -127,35 +127,7 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **100206** | Process Injection | Detects `CreateRemoteThread` or Process Hollowing techniques | 14 |
 | **100400** | DCsync Attack | Directory Replication Service access from a non-Domain Controller | 15 |
 
-1. Web Application Defense (L7/WAF Logic)
 
-    XSS Precision (Rule 102010): Instead of generic web alerts, this rule specifically identifies script tags and alert functions in decoded URLs.
-
-    Path Traversal (Rule 102020): High-severity (Level 12) rule for identifying attempts to break out of the web root (e.g., /etc/passwd).
-
-    SQLi Detection (Rule 102030): Targets specific SQL syntax keywords like UNION SELECT and -- #.
-
-2. Identity & Access Management (IAM)
-
-    Critical Account Takeover (Rule 101200): A correlation rule that identifies a successful login only after 3+ failures from the same source within 60s.
-
-    SSH Brute Force (Rule 101180): Aggregates failed login attempts to flag automated scanners.
-
-    Stealth Login Detection (Rule 101310): Detects logins without a TTY (Typical of automated tunneling or reverse shells).
-
-3. Endpoint Forensics & EDR Logic
-
-    FIM Persistence (Rules 100041 - 100046): Monitors the system for file additions and permission changes, identifying potential backdoors.
-
-    Archive Creation (Rule 101212): Detects creation of .zip or .tar files in sensitive areas, a common sign of Data Exfiltration.
-
-    Malware Detection (VT Integration): Rules that trigger an automated VirusTotal scan whenever a new file hash is detected by the FIM engine.
-
-4. System Health & Compliance
-
-    CIS Benchmarking (Rule 19004): Automated alerts for systems falling below 50% compliance with security standards.
-
-    Auditd Anomaly Detection: Custom decoders for Linux syscalls to monitor unauthorized sudo usage and privilege escalation attempts.
 
 
 
