@@ -46,8 +46,11 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
     Workflow: Wazuh automatically extracts file hashes and queries VirusTotal.
 
     Finding: Detected EICAR test malware with a 66/68 malicious score.
+   ![File added](Screenshots/File%20Added%20%26%20Permission.png)
+   ![LFI](Screenshots/Hash%20file.png)
+   ![LFI](Screenshots/Virus%20total%20hash%20scan.png)
 
-2.  MITRE ATT&CK® Framework Mapping
+3.  MITRE ATT&CK® Framework Mapping
 
 All custom rules and alerts are mapped to MITRE ATT&CK techniques (e.g., Persistence, Privilege Escalation, Brute Force), allowing for a standardized understanding of adversary behavior.
 
