@@ -44,8 +44,9 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
 
     Alert: Rule 102010 - XSS attempt detected.
    ![XSS](Screenshots/XSS%20Reflected%20%26%20DOM.png)
+   ![XSS Detection](Screenshots/XSS%20Detected%20GIF.gif)
 
-4. Local File Inclusion (LFI)
+5. Local File Inclusion (LFI)
 
     Detection: Captured directory traversal attempts (/etc/passwd).
 
