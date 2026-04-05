@@ -274,6 +274,12 @@ Brute Force Correlation: Successfully flagged automated SSH attacks and account 
 * Test Shadow file(Password)  > sudo auditctl -w /etc/shadow -p r -k shadow_access
 
 
+### 👨‍💻 Author
+
+### Youssef Mohamed
+### Cybersecurity / SOC Analyst
+### [GitHub Profile](https://github.com/youssefmohamed180497-code)
+
 I will update rules and decoders if the projects I work on require them.
 
 
