@@ -1,0 +1,949 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;" class="markmap mm-wdtg46-2"><style>.markmap{--markmap-max-width: 9999px;--markmap-a-color: #0097e6;--markmap-a-hover-color: #00a8ff;--markmap-code-bg: #f0f0f0;--markmap-code-color: #555;--markmap-highlight-bg: #ffeaa7;--markmap-table-border: 1px solid currentColor;--markmap-font: 300 16px/20px sans-serif;--markmap-circle-open-bg: #fff;--markmap-text-color: #333;--markmap-highlight-node-bg: #ff02;font:var(--markmap-font);color:var(--markmap-text-color)}.markmap-link{fill:none}.markmap-node&gt;circle{cursor:pointer}.markmap-foreign{display:inline-block}.markmap-foreign p{margin:0}.markmap-foreign a{color:var(--markmap-a-color)}.markmap-foreign a:hover{color:var(--markmap-a-hover-color)}.markmap-foreign code{padding:.25em;font-size:calc(1em - 2px);color:var(--markmap-code-color);background-color:var(--markmap-code-bg);border-radius:2px}.markmap-foreign pre{margin:0}.markmap-foreign pre&gt;code{display:block}.markmap-foreign del{text-decoration:line-through}.markmap-foreign em{font-style:italic}.markmap-foreign strong{font-weight:700}.markmap-foreign mark{background:var(--markmap-highlight-bg)}.markmap-foreign table,.markmap-foreign th,.markmap-foreign td{border-collapse:collapse;border:var(--markmap-table-border)}.markmap-foreign img{display:inline-block}.markmap-foreign svg{fill:currentColor}.markmap-foreign&gt;div{width:var(--markmap-max-width);text-align:left}.markmap-foreign&gt;div&gt;div{display:inline-block}.markmap-highlight rect{fill:var(--markmap-highlight-node-bg)}.markmap-dark .markmap{--markmap-code-bg: #1a1b26;--markmap-code-color: #ddd;--markmap-circle-open-bg: #444;--markmap-text-color: #eee}</style><g transform="translate(296.22476095300823,244.55330577573872) scale(0.13809080378841218)"><path class="markmap-link" data-depth="4" data-path="1.2.3.4" d="M595,-1563.086C635,-1563.086,635,-1641.742,675,-1641.742" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.2.3.5" d="M595,-1563.086C635,-1563.086,635,-1615.555,675,-1615.555" stroke-width="1.1875" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="4" data-path="1.2.3.6" d="M595,-1563.086C635,-1563.086,635,-1589.367,675,-1589.367" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="4" data-path="1.2.3.7" d="M595,-1563.086C635,-1563.086,635,-1563.18,675,-1563.18" stroke-width="1.1875" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="4" data-path="1.2.3.8" d="M595,-1563.086C635,-1563.086,635,-1536.992,675,-1536.992" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.2.3.9" d="M595,-1563.086C635,-1563.086,635,-1510.805,675,-1510.805" stroke-width="1.1875" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="4" data-path="1.2.3.10" d="M595,-1563.086C635,-1563.086,635,-1484.617,675,-1484.617" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="4" data-path="1.2.11.12" d="M540,-1414.055C580,-1414.055,580,-1453.43,620,-1453.43" stroke-width="1.1875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="4" data-path="1.2.11.13" d="M540,-1414.055C580,-1414.055,580,-1427.242,620,-1427.242" stroke-width="1.1875" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="4" data-path="1.2.11.14" d="M540,-1414.055C580,-1414.055,580,-1401.055,620,-1401.055" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.2.11.15" d="M540,-1414.055C580,-1414.055,580,-1374.867,620,-1374.867" stroke-width="1.1875" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="4" data-path="1.2.16.17" d="M537,-1228.586C577,-1228.586,577,-1113.68,617,-1113.68" stroke-width="1.1875" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="4" data-path="1.2.18.19" d="M550,-1069.305C590,-1069.305,590,-1082.492,630,-1082.492" stroke-width="1.1875" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="4" data-path="1.2.18.20" d="M550,-1069.305C590,-1069.305,590,-1056.305,630,-1056.305" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="3" data-path="1.2.3" d="M351,-1316.008C391,-1316.008,391,-1563.086,431,-1563.086" stroke-width="1.375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="3" data-path="1.2.11" d="M351,-1316.008C391,-1316.008,391,-1414.055,431,-1414.055" stroke-width="1.375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="3" data-path="1.2.16" d="M351,-1316.008C391,-1316.008,391,-1228.586,431,-1228.586" stroke-width="1.375" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="3" data-path="1.2.18" d="M351,-1316.008C391,-1316.008,391,-1069.305,431,-1069.305" stroke-width="1.375" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="3" data-path="1.23.24" d="M210,-1017.023C250,-1017.023,250,-1017.211,290,-1017.211" stroke-width="1.375" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.28.29" d="M763,-972.117C803,-972.117,803,-919.164,843,-919.164" stroke-width="1.09375" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.30.31" d="M731,-856.023C771,-856.023,771,-824.07,811,-824.07" stroke-width="1.09375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.32.33" d="M759,-750.43C799,-750.43,799,-707.977,839,-707.977" stroke-width="1.09375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.34.35" d="M707,-634.336C747,-634.336,747,-591.883,787,-591.883" stroke-width="1.09375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.36.37" d="M753,-528.742C793,-528.742,793,-496.789,833,-496.789" stroke-width="1.09375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.38.39" d="M742,-444.148C782,-444.148,782,-422.695,822,-422.695" stroke-width="1.09375" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.40.41" d="M703,-370.055C743,-370.055,743,-348.602,783,-348.602" stroke-width="1.09375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.42.43" d="M749,-295.961C789,-295.961,789,-274.508,829,-274.508" stroke-width="1.09375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.44.45" d="M719,-190.367C759,-190.367,759,-137.414,799,-137.414" stroke-width="1.09375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.46.47" d="M879,-43.273C919,-43.273,919,19.68,959,19.68" stroke-width="1.09375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.48.49" d="M865,103.82C905,103.82,905,156.773,945,156.773" stroke-width="1.09375" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.50.51" d="M816,230.414C856,230.414,856,272.867,896,272.867" stroke-width="1.09375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.52.53" d="M851,357.008C891,357.008,891,409.961,931,409.961" stroke-width="1.09375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.54.55" d="M863,473.102C903,473.102,903,505.055,943,505.055" stroke-width="1.09375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.56.57" d="M907,578.695C947,578.695,947,621.148,987,621.148" stroke-width="1.09375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.58.59" d="M708,684.289C748,684.289,748,716.242,788,716.242" stroke-width="1.09375" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.60.61" d="M752,758.383C792,758.383,792,769.336,832,769.336" stroke-width="1.09375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.62.63" d="M805,832.477C845,832.477,845,864.43,885,864.43" stroke-width="1.09375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.64.65" d="M788,927.57C828,927.57,828,959.523,868,959.523" stroke-width="1.09375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.66.67" d="M820,1012.164C860,1012.164,860,1033.617,900,1033.617" stroke-width="1.09375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.68.69" d="M853,1179.758C893,1179.758,893,1294.711,933,1294.711" stroke-width="1.09375" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.70.71" d="M892,1357.852C932,1357.852,932,1389.805,972,1389.805" stroke-width="1.09375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="5" data-path="1.26.27.72.73" d="M719,1442.445C759,1442.445,759,1463.898,799,1463.898" stroke-width="1.09375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.28" d="M432,235.258C472,235.258,472,-972.117,512,-972.117" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.30" d="M432,235.258C472,235.258,472,-856.023,512,-856.023" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.32" d="M432,235.258C472,235.258,472,-750.43,512,-750.43" stroke-width="1.1875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.34" d="M432,235.258C472,235.258,472,-634.336,512,-634.336" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.36" d="M432,235.258C472,235.258,472,-528.742,512,-528.742" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.38" d="M432,235.258C472,235.258,472,-444.148,512,-444.148" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.40" d="M432,235.258C472,235.258,472,-370.055,512,-370.055" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.42" d="M432,235.258C472,235.258,472,-295.961,512,-295.961" stroke-width="1.1875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.44" d="M432,235.258C472,235.258,472,-190.367,512,-190.367" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.46" d="M432,235.258C472,235.258,472,-43.273,512,-43.273" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.48" d="M432,235.258C472,235.258,472,103.82,512,103.82" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.50" d="M432,235.258C472,235.258,472,230.414,512,230.414" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.52" d="M432,235.258C472,235.258,472,357.008,512,357.008" stroke-width="1.1875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.54" d="M432,235.258C472,235.258,472,473.102,512,473.102" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.56" d="M432,235.258C472,235.258,472,578.695,512,578.695" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.58" d="M432,235.258C472,235.258,472,684.289,512,684.289" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.60" d="M432,235.258C472,235.258,472,758.383,512,758.383" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.62" d="M432,235.258C472,235.258,472,832.477,512,832.477" stroke-width="1.1875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.64" d="M432,235.258C472,235.258,472,927.57,512,927.57" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.66" d="M432,235.258C472,235.258,472,1012.164,512,1012.164" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.68" d="M432,235.258C472,235.258,472,1179.758,512,1179.758" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.70" d="M432,235.258C472,235.258,472,1357.852,512,1357.852" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="4" data-path="1.26.27.72" d="M432,235.258C472,235.258,472,1442.445,512,1442.445" stroke-width="1.1875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="5" data-path="1.26.74.75.76" d="M780,1600.039C820,1600.039,820,1704.992,860,1704.992" stroke-width="1.09375" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="4" data-path="1.26.74.75" d="M499,1600.133C539,1600.133,539,1600.039,579,1600.039" stroke-width="1.1875" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="4" data-path="1.26.77.78" d="M462,1631.508C502,1631.508,502,1631.414,542,1631.414" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.26.90.91" d="M368,1979.195C408,1979.195,408,1952.914,448,1952.914" stroke-width="1.1875" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="4" data-path="1.26.90.92" d="M368,1979.195C408,1979.195,408,1979.102,448,1979.102" stroke-width="1.1875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="4" data-path="1.26.90.93" d="M368,1979.195C408,1979.195,408,2005.289,448,2005.289" stroke-width="1.1875" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="4" data-path="1.26.94.95" d="M400,2141.57C440,2141.57,440,2246.477,480,2246.477" stroke-width="1.1875" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="4" data-path="1.26.96.97" d="M404,2330.133C444,2330.133,444,2277.664,484,2277.664" stroke-width="1.1875" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="4" data-path="1.26.96.98" d="M404,2330.133C444,2330.133,444,2303.852,484,2303.852" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.26.96.99" d="M404,2330.133C444,2330.133,444,2330.039,484,2330.039" stroke-width="1.1875" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="4" data-path="1.26.96.100" d="M404,2330.133C444,2330.133,444,2356.227,484,2356.227" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="4" data-path="1.26.96.101" d="M404,2330.133C444,2330.133,444,2382.414,484,2382.414" stroke-width="1.1875" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="4" data-path="1.26.104.105" d="M447,2439.883C487,2439.883,487,2413.602,527,2413.602" stroke-width="1.1875" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="4" data-path="1.26.104.106" d="M447,2439.883C487,2439.883,487,2439.789,527,2439.789" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="4" data-path="1.26.104.107" d="M447,2439.883C487,2439.883,487,2465.977,527,2465.977" stroke-width="1.1875" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="3" data-path="1.26.27" d="M195,1337.758C235,1337.758,235,235.258,275,235.258" stroke-width="1.375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="3" data-path="1.26.74" d="M195,1337.758C235,1337.758,235,1600.133,275,1600.133" stroke-width="1.375" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="3" data-path="1.26.77" d="M195,1337.758C235,1337.758,235,1631.508,275,1631.508" stroke-width="1.375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="3" data-path="1.26.79" d="M195,1337.758C235,1337.758,235,1657.883,275,1657.883" stroke-width="1.375" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="3" data-path="1.26.80" d="M195,1337.758C235,1337.758,235,1684.258,275,1684.258" stroke-width="1.375" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="3" data-path="1.26.81" d="M195,1337.758C235,1337.758,235,1710.633,275,1710.633" stroke-width="1.375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="3" data-path="1.26.82" d="M195,1337.758C235,1337.758,235,1737.008,275,1737.008" stroke-width="1.375" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="3" data-path="1.26.83" d="M195,1337.758C235,1337.758,235,1763.383,275,1763.383" stroke-width="1.375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="3" data-path="1.26.84" d="M195,1337.758C235,1337.758,235,1789.758,275,1789.758" stroke-width="1.375" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="3" data-path="1.26.85" d="M195,1337.758C235,1337.758,235,1816.133,275,1816.133" stroke-width="1.375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="3" data-path="1.26.86" d="M195,1337.758C235,1337.758,235,1842.508,275,1842.508" stroke-width="1.375" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="3" data-path="1.26.87" d="M195,1337.758C235,1337.758,235,1868.883,275,1868.883" stroke-width="1.375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="3" data-path="1.26.88" d="M195,1337.758C235,1337.758,235,1895.258,275,1895.258" stroke-width="1.375" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="3" data-path="1.26.89" d="M195,1337.758C235,1337.758,235,1921.633,275,1921.633" stroke-width="1.375" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="3" data-path="1.26.90" d="M195,1337.758C235,1337.758,235,1979.195,275,1979.195" stroke-width="1.375" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="3" data-path="1.26.94" d="M195,1337.758C235,1337.758,235,2141.57,275,2141.57" stroke-width="1.375" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="3" data-path="1.26.96" d="M195,1337.758C235,1337.758,235,2330.133,275,2330.133" stroke-width="1.375" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="3" data-path="1.26.102" d="M195,1337.758C235,1337.758,235,2366.716,275,2366.716" stroke-width="1.375" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="3" data-path="1.26.103" d="M195,1337.758C235,1337.758,235,2403.299,275,2403.299" stroke-width="1.375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="3" data-path="1.26.104" d="M195,1337.758C235,1337.758,235,2439.883,275,2439.883" stroke-width="1.375" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="2" data-path="1.2" d="M0,1.25C40,1.25,40,-1316.008,80,-1316.008" stroke-width="1.75" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="2" data-path="1.21" d="M0,1.25C40,1.25,40,-1216.346,80,-1216.346" stroke-width="1.75" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="2" data-path="1.22" d="M0,1.25C40,1.25,40,-1116.685,80,-1116.685" stroke-width="1.75" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="2" data-path="1.23" d="M0,1.25C40,1.25,40,-1017.023,80,-1017.023" stroke-width="1.75" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="2" data-path="1.25" d="M0,1.25C40,1.25,40,-390.977,80,-390.977" stroke-width="1.75" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="2" data-path="1.26" d="M0,1.25C40,1.25,40,1337.758,80,1337.758" stroke-width="1.75" stroke="rgb(140, 86, 75)"/><g class="markmap-highlight"/><g data-depth="4" data-path="1.2.3.4" class="markmap-node" transform="translate(675, -1662.3359375)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="85" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="67" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="#overview">Overview</a></div></div></foreignObject></g><g data-depth="4" data-path="1.2.3.5" class="markmap-node" transform="translate(675, -1636.1484375)"><line stroke="#9467bd" stroke-width="1.1875" x1="-1" x2="81" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="63" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="#features">Features</a></div></div></foreignObject></g><g data-depth="4" data-path="1.2.3.6" class="markmap-node" transform="translate(675, -1609.9609375)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="95" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="77" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="#installation">Installation</a></div></div></foreignObject></g><g data-depth="4" data-path="1.2.3.7" class="markmap-node" transform="translate(675, -1583.7734375)"><line stroke="#e377c2" stroke-width="1.1875" x1="-1" x2="133" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="115" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="#rule-categories">Rule Categories</a></div></div></foreignObject></g><g data-depth="4" data-path="1.2.3.8" class="markmap-node" transform="translate(675, -1557.5859375)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="200" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="182" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="#mitre-attck-mapping">MITRE ATT&amp;CK Mapping</a></div></div></foreignObject></g><g data-depth="4" data-path="1.2.3.9" class="markmap-node" transform="translate(675, -1531.3984375)"><line stroke="#bcbd22" stroke-width="1.1875" x1="-1" x2="163" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="145" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="#auditd-configuration">Auditd Configuration</a></div></div></foreignObject></g><g data-depth="4" data-path="1.2.3.10" class="markmap-node" transform="translate(675, -1505.2109375)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="104" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="86" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="#contributing">Contributing</a></div></div></foreignObject></g><g data-depth="3" data-path="1.2.3" class="markmap-node" transform="translate(431, -1583.7734375)"><line stroke="#2ca02c" stroke-width="1.375" x1="-1" x2="166" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#2ca02c" fill="var(--markmap-circle-open-bg)" cx="164" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="148" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">📋 Table of Contents</div></div></foreignObject></g><g data-depth="4" data-path="1.2.11.12" class="markmap-node" transform="translate(620, -1474.0234375)"><line stroke="#ff7f0e" stroke-width="1.1875" x1="-1" x2="425" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="407" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🛡️ <strong>Threat Detection</strong> (Malware, Reverse Shells, Rootkits)</div></div></foreignObject></g><g data-depth="4" data-path="1.2.11.13" class="markmap-node" transform="translate(620, -1447.8359375)"><line stroke="#2ca02c" stroke-width="1.1875" x1="-1" x2="415" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="397" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔍 <strong>Fraud Detection</strong> (Account Takeover, Insider Threat)</div></div></foreignObject></g><g data-depth="4" data-path="1.2.11.14" class="markmap-node" transform="translate(620, -1421.6484375)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="312" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="294" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">📊 <strong>Compliance</strong> (PCI-DSS, GDPR, SOX)</div></div></foreignObject></g><g data-depth="4" data-path="1.2.11.15" class="markmap-node" transform="translate(620, -1395.4609375)"><line stroke="#9467bd" stroke-width="1.1875" x1="-1" x2="451" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="433" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🚨 <strong>Behavioral Analysis</strong> (Anomaly Detection, Attack Chains)</div></div></foreignObject></g><g data-depth="3" data-path="1.2.11" class="markmap-node" transform="translate(431, -1434.7421875)"><line stroke="#1f77b4" stroke-width="1.375" x1="-1" x2="111" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="109" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="93" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🎯 Overview</div></div></foreignObject></g><g data-depth="4" data-path="1.2.16.17" class="markmap-node" transform="translate(617, -1364.2734375)"><line stroke="#e377c2" stroke-width="1.1875" x1="-1" x2="543" y1="250.59375" y2="250.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="525" height="250"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="34,47">
+<thead data-lines="34,35">
+<tr data-lines="34,35">
+<th>Category</th>
+<th>Rules</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody data-lines="36,47">
+<tr data-lines="36,37">
+<td>Privilege Escalation</td>
+<td>5</td>
+<td>Sudo abuse, root access without login</td>
+</tr>
+<tr data-lines="37,38">
+<td>Reverse Shells</td>
+<td>3</td>
+<td>Netcat, Python, Shell binaries</td>
+</tr>
+<tr data-lines="38,39">
+<td>Malware Detection</td>
+<td>4</td>
+<td>Execution from /tmp, /dev/shm</td>
+</tr>
+<tr data-lines="39,40">
+<td>Persistence</td>
+<td>4</td>
+<td>Cron, Systemd, User modifications</td>
+</tr>
+<tr data-lines="40,41">
+<td>Credential Access</td>
+<td>3</td>
+<td>Password files, Shadow access</td>
+</tr>
+<tr data-lines="41,42">
+<td>Fraud Detection</td>
+<td>20</td>
+<td>Account takeover, geolocation, impossible travel</td>
+</tr>
+<tr data-lines="42,43">
+<td>Data Exfiltration</td>
+<td>5</td>
+<td>Database dumps, USB, Cloud sync</td>
+</tr>
+<tr data-lines="43,44">
+<td>Compliance</td>
+<td>3</td>
+<td>PCI-DSS, GDPR, SOX</td>
+</tr>
+<tr data-lines="44,45">
+<td>Session Anomalies</td>
+<td>1</td>
+<td>SSH without TTY</td>
+</tr>
+<tr data-lines="45,46">
+<td>File Integrity</td>
+<td>11</td>
+<td>Critical file changes, SUID binaries</td>
+</tr>
+<tr data-lines="46,47">
+<td>Network Security</td>
+<td>2</td>
+<td>Suspicious ports, lateral movement</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="3" data-path="1.2.16" class="markmap-node" transform="translate(431, -1249.2734375)"><line stroke="#8c564b" stroke-width="1.375" x1="-1" x2="108" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="106" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="90" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">✨ Features</div></div></foreignObject></g><g data-depth="4" data-path="1.2.18.19" class="markmap-node" transform="translate(630, -1103.0859375)"><line stroke="#bcbd22" stroke-width="1.1875" x1="-1" x2="159" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="141" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">1. Clone Repository</div></div></foreignObject></g><g data-depth="4" data-path="1.2.18.20" class="markmap-node" transform="translate(630, -1076.8984375)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="190" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="172" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">2. Copy Rules to Wazuh</div></div></foreignObject></g><g data-depth="3" data-path="1.2.18" class="markmap-node" transform="translate(431, -1089.9921875)"><line stroke="#7f7f7f" stroke-width="1.375" x1="-1" x2="121" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="119" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="103" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🚀 Installation</div></div></foreignObject></g><g data-depth="2" data-path="1.2" class="markmap-node" transform="translate(80, -1336.8828125)"><line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="273" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="271" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="255" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔒 Wazuh Advanced Security Rules</div></div></foreignObject></g><g data-depth="2" data-path="1.21" class="markmap-node" transform="translate(80, -1237.2213134765625)"><line stroke="#1f77b4" stroke-width="1.75" x1="-1" x2="169" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="151" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Backup existing rules</div></div></foreignObject></g><g data-depth="2" data-path="1.22" class="markmap-node" transform="translate(80, -1137.5599365234375)"><line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="128" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="110" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Copy new rules</div></div></foreignObject></g><g data-depth="3" data-path="1.23.24" class="markmap-node" transform="translate(290, -1037.8984375)"><line stroke="#d62728" stroke-width="1.375" x1="-1" x2="155" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="137" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">3. Configure Auditd</div></div></foreignObject></g><g data-depth="2" data-path="1.23" class="markmap-node" transform="translate(80, -1037.8984375)"><line stroke="#2ca02c" stroke-width="1.75" x1="-1" x2="132" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#2ca02c" fill="var(--markmap-circle-open-bg)" cx="130" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="114" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Set permissions</div></div></foreignObject></g><g data-depth="2" data-path="1.25" class="markmap-node" transform="translate(80, -411.8515625)"><line stroke="#9467bd" stroke-width="1.75" x1="-1" x2="134" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="116" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Copy audit rules</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.28.29" class="markmap-node" transform="translate(843, -1045.7109375)"><line stroke="#bcbd22" stroke-width="1.09375" x1="-1" x2="489" y1="126.546875" y2="126.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="471" height="126"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="92,99">
+<thead data-lines="92,93">
+<tr data-lines="92,93">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="94,99">
+<tr data-lines="94,95">
+<td>101100</td>
+<td>12</td>
+<td>Privilege escalation detected</td>
+<td>T1068, T1548</td>
+</tr>
+<tr data-lines="95,96">
+<td>101101</td>
+<td>12</td>
+<td>Root command without login session</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="96,97">
+<td>101102</td>
+<td>10</td>
+<td>Multiple root commands without login</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="97,98">
+<td>101190</td>
+<td>8</td>
+<td>Repeated privilege escalation attempts</td>
+<td>T1110</td>
+</tr>
+<tr data-lines="98,99">
+<td>101240</td>
+<td>10</td>
+<td>Root execution by regular user</td>
+<td>T1078</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.28" class="markmap-node" transform="translate(512, -992.7109375)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="253" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="251" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="235" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Privilege Escalation (5 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.30.31" class="markmap-node" transform="translate(811, -908.6171875)"><line stroke="#1f77b4" stroke-width="1.09375" x1="-1" x2="490" y1="84.546875" y2="84.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="472" height="84"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="102,107">
+<thead data-lines="102,103">
+<tr data-lines="102,103">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="104,107">
+<tr data-lines="104,105">
+<td>101110</td>
+<td>14</td>
+<td>Network tool executed (nc, ncat, socat)</td>
+<td>T1059, T1071</td>
+</tr>
+<tr data-lines="105,106">
+<td>101111</td>
+<td>14</td>
+<td>Scripting language with network activity</td>
+<td>T1059</td>
+</tr>
+<tr data-lines="106,107">
+<td>101112</td>
+<td>12</td>
+<td>Shell binary in temporary directory</td>
+<td>-</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.30" class="markmap-node" transform="translate(512, -876.6171875)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="221" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="219" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="203" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Reverse Shells (3 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.32.33" class="markmap-node" transform="translate(839, -813.5234375)"><line stroke="#2ca02c" stroke-width="1.09375" x1="-1" x2="480" y1="105.546875" y2="105.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="462" height="105"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="110,116">
+<thead data-lines="110,111">
+<tr data-lines="110,111">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="112,116">
+<tr data-lines="112,113">
+<td>101120</td>
+<td>13</td>
+<td>Binary executed from /tmp</td>
+<td>T1059, T1027</td>
+</tr>
+<tr data-lines="113,114">
+<td>101121</td>
+<td>13</td>
+<td>Binary executed from /dev/shm</td>
+<td>T1059, T1620</td>
+</tr>
+<tr data-lines="114,115">
+<td>101191</td>
+<td>12</td>
+<td>Multiple executions from /tmp</td>
+<td>T1204</td>
+</tr>
+<tr data-lines="115,116">
+<td>101440</td>
+<td>12</td>
+<td>SUID binary created in temp directory</td>
+<td>T1548</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.32" class="markmap-node" transform="translate(512, -771.0234375)"><line stroke="#ff7f0e" stroke-width="1.1875" x1="-1" x2="249" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="247" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="231" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Malware Execution (4 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.34.35" class="markmap-node" transform="translate(787, -697.4296875)"><line stroke="#9467bd" stroke-width="1.09375" x1="-1" x2="358" y1="105.546875" y2="105.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="340" height="105"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="119,125">
+<thead data-lines="119,120">
+<tr data-lines="119,120">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="121,125">
+<tr data-lines="121,122">
+<td>101130</td>
+<td>10</td>
+<td>Cron configuration modified</td>
+<td>T1053</td>
+</tr>
+<tr data-lines="122,123">
+<td>101131</td>
+<td>10</td>
+<td>Systemd service modified</td>
+<td>T1543</td>
+</tr>
+<tr data-lines="123,124">
+<td>101132</td>
+<td>12</td>
+<td>User account modified</td>
+<td>T1136</td>
+</tr>
+<tr data-lines="124,125">
+<td>101133</td>
+<td>12</td>
+<td>Sudoers file modified</td>
+<td>T1548</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.34" class="markmap-node" transform="translate(512, -654.9296875)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="197" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="195" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="179" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟠 Persistence (4 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.36.37" class="markmap-node" transform="translate(833, -581.3359375)"><line stroke="#e377c2" stroke-width="1.09375" x1="-1" x2="329" y1="84.546875" y2="84.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="311" height="84"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="128,133">
+<thead data-lines="128,129">
+<tr data-lines="128,129">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="130,133">
+<tr data-lines="130,131">
+<td>101140</td>
+<td>10</td>
+<td>Password file accessed</td>
+<td>T1003</td>
+</tr>
+<tr data-lines="131,132">
+<td>101141</td>
+<td>9</td>
+<td>/etc/passwd accessed</td>
+<td>T1003</td>
+</tr>
+<tr data-lines="132,133">
+<td>101142</td>
+<td>11</td>
+<td>/etc/shadow accessed</td>
+<td>T1003</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.36" class="markmap-node" transform="translate(512, -549.3359375)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="243" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="241" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="225" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟠 Credential Access (3 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.38.39" class="markmap-node" transform="translate(822, -486.2421875)"><line stroke="#bcbd22" stroke-width="1.09375" x1="-1" x2="352" y1="63.546875" y2="63.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="334" height="63"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="136,140">
+<thead data-lines="136,137">
+<tr data-lines="136,137">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="138,140">
+<tr data-lines="138,139">
+<td>101150</td>
+<td>8</td>
+<td>Network scanner executed</td>
+<td>T1046</td>
+</tr>
+<tr data-lines="139,140">
+<td>101151</td>
+<td>8</td>
+<td>Packet sniffer executed</td>
+<td>T1040</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.38" class="markmap-node" transform="translate(512, -464.7421875)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="232" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="230" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="214" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔵 Reconnaissance (2 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.40.41" class="markmap-node" transform="translate(783, -412.1484375)"><line stroke="#1f77b4" stroke-width="1.09375" x1="-1" x2="417" y1="63.546875" y2="63.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="399" height="63"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="143,147">
+<thead data-lines="143,144">
+<tr data-lines="143,144">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="145,147">
+<tr data-lines="145,146">
+<td>101160</td>
+<td>9</td>
+<td>Download tool executed (wget, curl)</td>
+<td>T1105</td>
+</tr>
+<tr data-lines="146,147">
+<td>101161</td>
+<td>10</td>
+<td>Multiple download attempts</td>
+<td>T1105</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.40" class="markmap-node" transform="translate(512, -390.6484375)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="193" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="191" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="175" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔵 Downloads (2 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.42.43" class="markmap-node" transform="translate(829, -338.0546875)"><line stroke="#2ca02c" stroke-width="1.09375" x1="-1" x2="459" y1="63.546875" y2="63.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="441" height="63"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="150,154">
+<thead data-lines="150,151">
+<tr data-lines="150,151">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="152,154">
+<tr data-lines="152,153">
+<td>101170</td>
+<td>13</td>
+<td>Kernel module operation</td>
+<td>T1547, T1014</td>
+</tr>
+<tr data-lines="153,154">
+<td>101171</td>
+<td>14</td>
+<td>Process injection detected (ptrace)</td>
+<td>T1055</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.42" class="markmap-node" transform="translate(512, -316.5546875)"><line stroke="#ff7f0e" stroke-width="1.1875" x1="-1" x2="239" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="237" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="221" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Kernel &amp; Injection (2 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.44.45" class="markmap-node" transform="translate(799, -263.9609375)"><line stroke="#9467bd" stroke-width="1.09375" x1="-1" x2="418" y1="126.546875" y2="126.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="400" height="126"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="157,164">
+<thead data-lines="157,158">
+<tr data-lines="157,158">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="159,164">
+<tr data-lines="159,160">
+<td>101180</td>
+<td>10</td>
+<td>SSH authentication failure</td>
+<td>T1110.001</td>
+</tr>
+<tr data-lines="160,161">
+<td>101181</td>
+<td>12</td>
+<td>SSH Brute Force attack</td>
+<td>T1110</td>
+</tr>
+<tr data-lines="161,162">
+<td>101182</td>
+<td>12</td>
+<td>SSH login with non-existent user</td>
+<td>T1110.001</td>
+</tr>
+<tr data-lines="162,163">
+<td>101183</td>
+<td>7</td>
+<td>Successful SSH login</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="163,164">
+<td>101184</td>
+<td>10</td>
+<td>Multiple successful logins</td>
+<td>T1078</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.44" class="markmap-node" transform="translate(512, -210.9609375)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="209" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="207" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="191" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟠 SSH Security (5 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.46.47" class="markmap-node" transform="translate(959, -126.8671875)"><line stroke="#e377c2" stroke-width="1.09375" x1="-1" x2="408" y1="146.546875" y2="146.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="390" height="146"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="167,175">
+<thead data-lines="167,168">
+<tr data-lines="167,168">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="169,175">
+<tr data-lines="169,170">
+<td>101200</td>
+<td>12</td>
+<td>Possible Account Takeover</td>
+<td>T1110, T1078</td>
+</tr>
+<tr data-lines="170,171">
+<td>101201</td>
+<td>8</td>
+<td>After-hours login detected</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="171,172">
+<td>101202</td>
+<td>10</td>
+<td>Login from high-risk country</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="172,173">
+<td>101203</td>
+<td>14</td>
+<td>Impossible Travel detected</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="173,174">
+<td>101204</td>
+<td>6</td>
+<td>First-time login from new IP</td>
+<td>-</td>
+</tr>
+<tr data-lines="174,175">
+<td>101205</td>
+<td>10</td>
+<td>Credential stuffing detected</td>
+<td>T1110</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.46" class="markmap-node" transform="translate(512, -63.8671875)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="369" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="367" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="351" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Fraud Detection - Account Takeover (5 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.48.49" class="markmap-node" transform="translate(945, 30.2265625)"><line stroke="#bcbd22" stroke-width="1.09375" x1="-1" x2="410" y1="126.546875" y2="126.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="392" height="126"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="178,185">
+<thead data-lines="178,179">
+<tr data-lines="178,179">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="180,185">
+<tr data-lines="180,181">
+<td>101210</td>
+<td>10</td>
+<td>Sensitive data copy attempt</td>
+<td>T1041</td>
+</tr>
+<tr data-lines="181,182">
+<td>101211</td>
+<td>12</td>
+<td>Database dump attempt</td>
+<td>T1005</td>
+</tr>
+<tr data-lines="182,183">
+<td>101212</td>
+<td>9</td>
+<td>Archive creation detected</td>
+<td>T1560</td>
+</tr>
+<tr data-lines="183,184">
+<td>101213</td>
+<td>11</td>
+<td>File copy to USB/removable media</td>
+<td>T1052</td>
+</tr>
+<tr data-lines="184,185">
+<td>101214</td>
+<td>8</td>
+<td>Cloud sync tool executed</td>
+<td>T1567</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.48" class="markmap-node" transform="translate(512, 83.2265625)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="355" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="353" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="337" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Fraud Detection - Data Exfiltration (5 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.50.51" class="markmap-node" transform="translate(896, 167.3203125)"><line stroke="#1f77b4" stroke-width="1.09375" x1="-1" x2="407" y1="105.546875" y2="105.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="389" height="105"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="188,194">
+<thead data-lines="188,189">
+<tr data-lines="188,189">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="190,194">
+<tr data-lines="190,191">
+<td>101220</td>
+<td>10</td>
+<td>Access to financial records</td>
+<td>T1005</td>
+</tr>
+<tr data-lines="191,192">
+<td>101221</td>
+<td>11</td>
+<td>Database query to payment tables</td>
+<td>T1071</td>
+</tr>
+<tr data-lines="192,193">
+<td>101222</td>
+<td>9</td>
+<td>Database export to spreadsheet</td>
+<td>T1560</td>
+</tr>
+<tr data-lines="193,194">
+<td>101223</td>
+<td>12</td>
+<td>Cryptocurrency wallet access</td>
+<td>T1649</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.50" class="markmap-node" transform="translate(512, 209.8203125)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="306" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="304" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="288" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Fraud Detection - Financial (4 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.52.53" class="markmap-node" transform="translate(931, 283.4140625)"><line stroke="#2ca02c" stroke-width="1.09375" x1="-1" x2="375" y1="126.546875" y2="126.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="357" height="126"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="197,204">
+<thead data-lines="197,198">
+<tr data-lines="197,198">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="199,204">
+<tr data-lines="199,200">
+<td>101230</td>
+<td>10</td>
+<td>HR/Employee data accessed</td>
+<td>T1005</td>
+</tr>
+<tr data-lines="200,201">
+<td>101231</td>
+<td>11</td>
+<td>Customer database accessed</td>
+<td>T1005</td>
+</tr>
+<tr data-lines="201,202">
+<td>101232</td>
+<td>10</td>
+<td>Bulk email sending detected</td>
+<td>T1566</td>
+</tr>
+<tr data-lines="202,203">
+<td>101233</td>
+<td>9</td>
+<td>SSH private key access/copy</td>
+<td>T1552</td>
+</tr>
+<tr data-lines="203,204">
+<td>101234</td>
+<td>12</td>
+<td>User account manipulation</td>
+<td>T1098</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.52" class="markmap-node" transform="translate(512, 336.4140625)"><line stroke="#ff7f0e" stroke-width="1.1875" x1="-1" x2="341" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="339" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="323" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟠 Fraud Detection - Insider Threat (5 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.54.55" class="markmap-node" transform="translate(943, 420.5078125)"><line stroke="#9467bd" stroke-width="1.09375" x1="-1" x2="426" y1="84.546875" y2="84.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="408" height="84"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="207,212">
+<thead data-lines="207,208">
+<tr data-lines="207,208">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="209,212">
+<tr data-lines="209,210">
+<td>101240</td>
+<td>10</td>
+<td>Root command by regular user</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="210,211">
+<td>101241</td>
+<td>8</td>
+<td>Sudo usage by guest/temporary user</td>
+<td>T1078</td>
+</tr>
+<tr data-lines="211,212">
+<td>101242</td>
+<td>9</td>
+<td>Permission change on critical file</td>
+<td>T1222</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.54" class="markmap-node" transform="translate(512, 452.5078125)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="353" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="351" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="335" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟠 Fraud Detection - Privilege Abuse (3 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.56.57" class="markmap-node" transform="translate(987, 515.6015625)"><line stroke="#e377c2" stroke-width="1.09375" x1="-1" x2="518" y1="105.546875" y2="105.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="500" height="105"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="215,221">
+<thead data-lines="215,216">
+<tr data-lines="215,216">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="217,221">
+<tr data-lines="217,218">
+<td>101250</td>
+<td>13</td>
+<td>Reconnaissance + Data exfiltration</td>
+<td>T1071, T1041</td>
+</tr>
+<tr data-lines="218,219">
+<td>101251</td>
+<td>10</td>
+<td>Rapid file access (Data Harvesting)</td>
+<td>T1005</td>
+</tr>
+<tr data-lines="219,220">
+<td>101252</td>
+<td>6</td>
+<td>Data transfer tool used</td>
+<td>-</td>
+</tr>
+<tr data-lines="220,221">
+<td>101253</td>
+<td>8</td>
+<td>Successful authentication (hijacking check)</td>
+<td>T1563</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.56" class="markmap-node" transform="translate(512, 558.1015625)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="397" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="395" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="379" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Fraud Detection - Behavioral Anomalies (4 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.58.59" class="markmap-node" transform="translate(788, 631.6953125)"><line stroke="#bcbd22" stroke-width="1.09375" x1="-1" x2="448" y1="84.546875" y2="84.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="430" height="84"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="224,229">
+<thead data-lines="224,225">
+<tr data-lines="224,225">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="226,229">
+<tr data-lines="226,227">
+<td>101260</td>
+<td>12</td>
+<td>PCI DSS: Cardholder Data Environment</td>
+<td>T1005</td>
+</tr>
+<tr data-lines="227,228">
+<td>101261</td>
+<td>10</td>
+<td>GDPR: PII accessed</td>
+<td>T1005</td>
+</tr>
+<tr data-lines="228,229">
+<td>101262</td>
+<td>14</td>
+<td>SOX: Financial records modified</td>
+<td>T1565</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.58" class="markmap-node" transform="translate(512, 663.6953125)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="198" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="196" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="180" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Compliance (3 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.60.61" class="markmap-node" transform="translate(832, 726.7890625)"><line stroke="#1f77b4" stroke-width="1.09375" x1="-1" x2="383" y1="42.546875" y2="42.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="365" height="42"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="232,235">
+<thead data-lines="232,233">
+<tr data-lines="232,233">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="234,235">
+<tr data-lines="234,235">
+<td>101310</td>
+<td>8</td>
+<td>Login without TTY (automated)</td>
+<td>T1078</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.60" class="markmap-node" transform="translate(512, 737.7890625)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="242" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="240" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="224" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟡 Session Anomalies (1 Rule)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.62.63" class="markmap-node" transform="translate(885, 779.8828125)"><line stroke="#2ca02c" stroke-width="1.09375" x1="-1" x2="415" y1="84.546875" y2="84.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="397" height="84"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="238,243">
+<thead data-lines="238,239">
+<tr data-lines="238,239">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="240,243">
+<tr data-lines="240,241">
+<td>101320</td>
+<td>8</td>
+<td>Multiple sudo commands</td>
+<td>T1548</td>
+</tr>
+<tr data-lines="241,242">
+<td>101321</td>
+<td>10</td>
+<td>Interactive shell escalation via sudo</td>
+<td>T1548</td>
+</tr>
+<tr data-lines="242,243">
+<td>101322</td>
+<td>9</td>
+<td>Sudo escalation to read tools</td>
+<td>T1548</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.62" class="markmap-node" transform="translate(512, 811.8828125)"><line stroke="#ff7f0e" stroke-width="1.1875" x1="-1" x2="295" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="293" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="277" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟡 Sudo/Privilege Escalation (3 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.64.65" class="markmap-node" transform="translate(868, 874.9765625)"><line stroke="#9467bd" stroke-width="1.09375" x1="-1" x2="456" y1="84.546875" y2="84.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="438" height="84"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="246,251">
+<thead data-lines="246,247">
+<tr data-lines="246,247">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="248,251">
+<tr data-lines="248,249">
+<td>101330</td>
+<td>10</td>
+<td>New user account created</td>
+<td>T1136</td>
+</tr>
+<tr data-lines="249,250">
+<td>101331</td>
+<td>11</td>
+<td>Password changed for privileged account</td>
+<td>T1098</td>
+</tr>
+<tr data-lines="250,251">
+<td>101332</td>
+<td>9</td>
+<td>User account deleted</td>
+<td>T1531</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.64" class="markmap-node" transform="translate(512, 906.9765625)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="278" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="276" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="260" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟡 User Account Changes (3 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.66.67" class="markmap-node" transform="translate(900, 970.0703125)"><line stroke="#e377c2" stroke-width="1.09375" x1="-1" x2="382" y1="63.546875" y2="63.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="364" height="63"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="254,258">
+<thead data-lines="254,255">
+<tr data-lines="254,255">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="256,258">
+<tr data-lines="256,257">
+<td>101340</td>
+<td>8</td>
+<td>Privileged group created</td>
+<td>T1136</td>
+</tr>
+<tr data-lines="257,258">
+<td>101341</td>
+<td>10</td>
+<td>User added to privileged group</td>
+<td>T1098</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.66" class="markmap-node" transform="translate(512, 991.5703125)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="310" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="308" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="292" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟡 Group/Permission Changes (2 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.68.69" class="markmap-node" transform="translate(933, 1044.1640625)"><line stroke="#bcbd22" stroke-width="1.09375" x1="-1" x2="399" y1="250.546875" y2="250.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="381" height="250"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="261,274">
+<thead data-lines="261,262">
+<tr data-lines="261,262">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="263,274">
+<tr data-lines="263,264">
+<td>101400</td>
+<td>12</td>
+<td>/etc/shadow modified</td>
+<td>T1003</td>
+</tr>
+<tr data-lines="264,265">
+<td>101401</td>
+<td>11</td>
+<td>/etc/passwd modified</td>
+<td>T1098</td>
+</tr>
+<tr data-lines="265,266">
+<td>101402</td>
+<td>13</td>
+<td>Sudoers configuration modified</td>
+<td>T1548</td>
+</tr>
+<tr data-lines="266,267">
+<td>101403</td>
+<td>10</td>
+<td>SSH configuration modified</td>
+<td>T1098</td>
+</tr>
+<tr data-lines="267,268">
+<td>101410</td>
+<td>11</td>
+<td>System binary modified</td>
+<td>-</td>
+</tr>
+<tr data-lines="268,269">
+<td>101411</td>
+<td>13</td>
+<td>Kernel module modified</td>
+<td>T1014</td>
+</tr>
+<tr data-lines="269,270">
+<td>101420</td>
+<td>8</td>
+<td>Cron configuration modified</td>
+<td>T1053</td>
+</tr>
+<tr data-lines="270,271">
+<td>101421</td>
+<td>8</td>
+<td>Systemd service modified</td>
+<td>T1543</td>
+</tr>
+<tr data-lines="271,272">
+<td>101422</td>
+<td>9</td>
+<td>Network configuration modified</td>
+<td>T1565</td>
+</tr>
+<tr data-lines="272,273">
+<td>101430</td>
+<td>10</td>
+<td>Financial data directory modified</td>
+<td>T1565</td>
+</tr>
+<tr data-lines="273,274">
+<td>101431</td>
+<td>11</td>
+<td>Customer data directory modified</td>
+<td>T1565</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.68" class="markmap-node" transform="translate(512, 1159.1640625)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="343" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="341" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="325" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 File Integrity &amp; System Integrity (11 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.70.71" class="markmap-node" transform="translate(972, 1305.2578125)"><line stroke="#1f77b4" stroke-width="1.09375" x1="-1" x2="495" y1="84.546875" y2="84.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="477" height="84"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="277,282">
+<thead data-lines="277,278">
+<tr data-lines="277,278">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="279,282">
+<tr data-lines="279,280">
+<td>101500</td>
+<td>10</td>
+<td>Connection to suspicious port</td>
+<td>T1071</td>
+</tr>
+<tr data-lines="280,281">
+<td>101501</td>
+<td>12</td>
+<td>Multiple connections to suspicious ports</td>
+<td>T1110</td>
+</tr>
+<tr data-lines="281,282">
+<td>101511</td>
+<td>11</td>
+<td>Lateral movement tool detected</td>
+<td>T1021, T1047</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.70" class="markmap-node" transform="translate(512, 1337.2578125)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="382" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="380" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="364" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔴 Network Security &amp; Lateral Movement (2 Rules)</div></div></foreignObject></g><g data-depth="5" data-path="1.26.27.72.73" class="markmap-node" transform="translate(799, 1400.3515625)"><line stroke="#2ca02c" stroke-width="1.09375" x1="-1" x2="357" y1="63.546875" y2="63.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="339" height="63"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="285,289">
+<thead data-lines="285,286">
+<tr data-lines="285,286">
+<th>ID</th>
+<th>Level</th>
+<th>Description</th>
+<th>MITRE</th>
+</tr>
+</thead>
+<tbody data-lines="287,289">
+<tr data-lines="287,288">
+<td>102010</td>
+<td>10</td>
+<td>XSS attempt detected</td>
+<td>T1189</td>
+</tr>
+<tr data-lines="288,289">
+<td>102020</td>
+<td>12</td>
+<td>Local File Inclusion attempt</td>
+<td>T1083</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.27.72" class="markmap-node" transform="translate(512, 1421.8515625)"><line stroke="#ff7f0e" stroke-width="1.1875" x1="-1" x2="209" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="207" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="191" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🟡 Web Security (2 Rules)</div></div></foreignObject></g><g data-depth="3" data-path="1.26.27" class="markmap-node" transform="translate(275, 214.5703125)"><line stroke="#e377c2" stroke-width="1.375" x1="-1" x2="159" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#e377c2" fill="var(--markmap-circle-open-bg)" cx="157" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="141" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">📁 Rule Categories</div></div></foreignObject></g><g data-depth="5" data-path="1.26.74.75.76" class="markmap-node" transform="translate(860, 1474.4453125)"><line stroke="#8c564b" stroke-width="1.09375" x1="-1" x2="453" y1="230.546875" y2="230.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="435" height="230"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="296,308">
+<thead data-lines="296,297">
+<tr data-lines="296,297">
+<th>Technique ID</th>
+<th>Name</th>
+<th>Rule Count</th>
+</tr>
+</thead>
+<tbody data-lines="298,308">
+<tr data-lines="298,299">
+<td>T1078</td>
+<td>Valid Accounts</td>
+<td>15</td>
+</tr>
+<tr data-lines="299,300">
+<td>T1005</td>
+<td>Data from Local System</td>
+<td>10</td>
+</tr>
+<tr data-lines="300,301">
+<td>T1059</td>
+<td>Command and Scripting Interpreter</td>
+<td>6</td>
+</tr>
+<tr data-lines="301,302">
+<td>T1105</td>
+<td>Ingress Tool Transfer</td>
+<td>4</td>
+</tr>
+<tr data-lines="302,303">
+<td>T1548</td>
+<td>Abuse Elevation Control Mechanism</td>
+<td>5</td>
+</tr>
+<tr data-lines="303,304">
+<td>T1110</td>
+<td>Brute Force</td>
+<td>6</td>
+</tr>
+<tr data-lines="304,305">
+<td>T1053</td>
+<td>Scheduled Task/Job</td>
+<td>3</td>
+</tr>
+<tr data-lines="305,306">
+<td>T1136</td>
+<td>Create Account</td>
+<td>4</td>
+</tr>
+<tr data-lines="306,307">
+<td>T1560</td>
+<td>Archive Collected Data</td>
+<td>3</td>
+</tr>
+<tr data-lines="307,308">
+<td>T1055</td>
+<td>Process Injection</td>
+<td>2</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="4" data-path="1.26.74.75" class="markmap-node" transform="translate(579, 1579.4453125)"><line stroke="#9467bd" stroke-width="1.1875" x1="-1" x2="203" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#9467bd" fill="var(--markmap-circle-open-bg)" cx="201" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="185" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Most Covered Techniques</div></div></foreignObject></g><g data-depth="3" data-path="1.26.74" class="markmap-node" transform="translate(275, 1579.4453125)"><line stroke="#d62728" stroke-width="1.375" x1="-1" x2="226" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="224" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="208" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🎯 MITRE ATT&amp;CK Mapping</div></div></foreignObject></g><g data-depth="4" data-path="1.26.77.78" class="markmap-node" transform="translate(542, 1610.8203125)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="169" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="151" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Required Audit Rules</div></div></foreignObject></g><g data-depth="3" data-path="1.26.77" class="markmap-node" transform="translate(275, 1610.8203125)"><line stroke="#e377c2" stroke-width="1.375" x1="-1" x2="189" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#e377c2" fill="var(--markmap-circle-open-bg)" cx="187" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="171" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🔧 Auditd Configuration</div></div></foreignObject></g><g data-depth="3" data-path="1.26.79" class="markmap-node" transform="translate(275, 1637.1953125)"><line stroke="#bcbd22" stroke-width="1.375" x1="-1" x2="183" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="165" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Delete all existing rules</div></div></foreignObject></g><g data-depth="3" data-path="1.26.80" class="markmap-node" transform="translate(275, 1663.5703125)"><line stroke="#17becf" stroke-width="1.375" x1="-1" x2="132" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="114" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Increase buffers</div></div></foreignObject></g><g data-depth="3" data-path="1.26.81" class="markmap-node" transform="translate(275, 1689.9453125)"><line stroke="#1f77b4" stroke-width="1.375" x1="-1" x2="158" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="140" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Privilege Escalation</div></div></foreignObject></g><g data-depth="3" data-path="1.26.82" class="markmap-node" transform="translate(275, 1716.3203125)"><line stroke="#ff7f0e" stroke-width="1.375" x1="-1" x2="120" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="102" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">User Changes</div></div></foreignObject></g><g data-depth="3" data-path="1.26.83" class="markmap-node" transform="translate(275, 1742.6953125)"><line stroke="#2ca02c" stroke-width="1.375" x1="-1" x2="118" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="100" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Network Tools</div></div></foreignObject></g><g data-depth="3" data-path="1.26.84" class="markmap-node" transform="translate(275, 1769.0703125)"><line stroke="#d62728" stroke-width="1.375" x1="-1" x2="168" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="150" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Execution from Temp</div></div></foreignObject></g><g data-depth="3" data-path="1.26.85" class="markmap-node" transform="translate(275, 1795.4453125)"><line stroke="#9467bd" stroke-width="1.375" x1="-1" x2="136" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="118" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Reconnaissance</div></div></foreignObject></g><g data-depth="3" data-path="1.26.86" class="markmap-node" transform="translate(275, 1821.8203125)"><line stroke="#8c564b" stroke-width="1.375" x1="-1" x2="131" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="113" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Data Exfiltration</div></div></foreignObject></g><g data-depth="3" data-path="1.26.87" class="markmap-node" transform="translate(275, 1848.1953125)"><line stroke="#e377c2" stroke-width="1.375" x1="-1" x2="102" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="84" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Persistence</div></div></foreignObject></g><g data-depth="3" data-path="1.26.88" class="markmap-node" transform="translate(275, 1874.5703125)"><line stroke="#7f7f7f" stroke-width="1.375" x1="-1" x2="64" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="46" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Kernel</div></div></foreignObject></g><g data-depth="3" data-path="1.26.89" class="markmap-node" transform="translate(275, 1900.9453125)"><line stroke="#bcbd22" stroke-width="1.375" x1="-1" x2="148" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="130" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Lock configuration</div></div></foreignObject></g><g data-depth="4" data-path="1.26.90.91" class="markmap-node" transform="translate(448, 1932.3203125)"><line stroke="#1f77b4" stroke-width="1.1875" x1="-1" x2="191" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="173" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Test Privilege Escalation</div></div></foreignObject></g><g data-depth="4" data-path="1.26.90.92" class="markmap-node" transform="translate(448, 1958.5078125)"><line stroke="#ff7f0e" stroke-width="1.1875" x1="-1" x2="223" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="205" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Test Reverse Shell Detection</div></div></foreignObject></g><g data-depth="4" data-path="1.26.90.93" class="markmap-node" transform="translate(448, 1984.6953125)"><line stroke="#2ca02c" stroke-width="1.1875" x1="-1" x2="187" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="169" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Test Malware Execution</div></div></foreignObject></g><g data-depth="3" data-path="1.26.90" class="markmap-node" transform="translate(275, 1958.5078125)"><line stroke="#17becf" stroke-width="1.375" x1="-1" x2="95" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="93" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="77" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🧪 Testing</div></div></foreignObject></g><g data-depth="4" data-path="1.26.94.95" class="markmap-node" transform="translate(480, 2015.8828125)"><line stroke="#9467bd" stroke-width="1.1875" x1="-1" x2="528" y1="230.59375" y2="230.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="510" height="230"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="388,400">
+<thead data-lines="388,389">
+<tr data-lines="388,389">
+<th>Level</th>
+<th>Severity</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody data-lines="390,400">
+<tr data-lines="390,391">
+<td>15</td>
+<td>Critical</td>
+<td>PowerShell obfuscation, malware delivery</td>
+</tr>
+<tr data-lines="391,392">
+<td>14</td>
+<td>Critical</td>
+<td>Process injection, impossible travel, SOX violations</td>
+</tr>
+<tr data-lines="392,393">
+<td>13</td>
+<td>High</td>
+<td>Kernel modules, malware execution, reverse shells</td>
+</tr>
+<tr data-lines="393,394">
+<td>12</td>
+<td>High</td>
+<td>Privilege escalation, account takeover, crypto wallets</td>
+</tr>
+<tr data-lines="394,395">
+<td>11</td>
+<td>Medium-High</td>
+<td>Database dumps, lateral movement, customer data</td>
+</tr>
+<tr data-lines="395,396">
+<td>10</td>
+<td>Medium</td>
+<td>Persistence, fraud detection, network scanners</td>
+</tr>
+<tr data-lines="396,397">
+<td>9</td>
+<td>Medium</td>
+<td>Permission changes, file integrity, SSH keys</td>
+</tr>
+<tr data-lines="397,398">
+<td>8</td>
+<td>Low-Medium</td>
+<td>Reconnaissance, guest users, new locations</td>
+</tr>
+<tr data-lines="398,399">
+<td>7</td>
+<td>Low</td>
+<td>Informational (file added/modified/deleted)</td>
+</tr>
+<tr data-lines="399,400">
+<td>6</td>
+<td>Info</td>
+<td>Data transfer, first-time login</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="3" data-path="1.26.94" class="markmap-node" transform="translate(275, 2120.8828125)"><line stroke="#d62728" stroke-width="1.375" x1="-1" x2="127" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="125" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="109" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">📊 Alert Levels</div></div></foreignObject></g><g data-depth="4" data-path="1.26.96.97" class="markmap-node" transform="translate(484, 2257.0703125)"><line stroke="#e377c2" stroke-width="1.1875" x1="-1" x2="169" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="151" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">1. Fork the repository</div></div></foreignObject></g><g data-depth="4" data-path="1.26.96.98" class="markmap-node" transform="translate(484, 2283.2578125)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="449" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="431" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">2. Create feature branch (`git checkout -b feature/new-rules`)</div></div></foreignObject></g><g data-depth="4" data-path="1.26.96.99" class="markmap-node" transform="translate(484, 2309.4453125)"><line stroke="#bcbd22" stroke-width="1.1875" x1="-1" x2="468" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="450" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">3. Commit changes (`git commit -am 'Add new detection rules'`)</div></div></foreignObject></g><g data-depth="4" data-path="1.26.96.100" class="markmap-node" transform="translate(484, 2335.6328125)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="397" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="379" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">4. Push to branch (`git push origin feature/new-rules`)</div></div></foreignObject></g><g data-depth="4" data-path="1.26.96.101" class="markmap-node" transform="translate(484, 2361.8203125)"><line stroke="#1f77b4" stroke-width="1.1875" x1="-1" x2="179" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="161" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">5. Create Pull Request</div></div></foreignObject></g><g data-depth="3" data-path="1.26.96" class="markmap-node" transform="translate(275, 2309.4453125)"><line stroke="#8c564b" stroke-width="1.375" x1="-1" x2="131" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="129" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="113" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🤝 Contributing</div></div></foreignObject></g><g data-depth="3" data-path="1.26.102" class="markmap-node" transform="translate(275, 2346.028564453125)"><line stroke="#ff7f0e" stroke-width="1.375" x1="-1" x2="96" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="78" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">📄 License</div></div></foreignObject></g><g data-depth="3" data-path="1.26.103" class="markmap-node" transform="translate(275, 2382.612060546875)"><line stroke="#2ca02c" stroke-width="1.375" x1="-1" x2="92" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="74" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">👨‍💻 Author</div></div></foreignObject></g><g data-depth="4" data-path="1.26.104.105" class="markmap-node" transform="translate(527, 2393.0078125)"><line stroke="#9467bd" stroke-width="1.1875" x1="-1" x2="334" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="316" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Wazuh Team for the excellent SIEM platform</div></div></foreignObject></g><g data-depth="4" data-path="1.26.104.106" class="markmap-node" transform="translate(527, 2419.1953125)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="219" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="201" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">MITRE ATT&amp;CK Framework</div></div></foreignObject></g><g data-depth="4" data-path="1.26.104.107" class="markmap-node" transform="translate(527, 2445.3828125)"><line stroke="#e377c2" stroke-width="1.1875" x1="-1" x2="311" y1="20.59375" y2="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="293" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Security community for threat intelligence</div></div></foreignObject></g><g data-depth="3" data-path="1.26.104" class="markmap-node" transform="translate(275, 2419.1953125)"><line stroke="#d62728" stroke-width="1.375" x1="-1" x2="174" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="172" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="156" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">🙏 Acknowledgments</div></div></foreignObject></g><g data-depth="2" data-path="1.26" class="markmap-node" transform="translate(80, 1316.8828125)"><line stroke="#8c564b" stroke-width="1.75" x1="-1" x2="117" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="115" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="99" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Reload auditd</div></div></foreignObject></g><g data-depth="1" data-path="1" class="markmap-node" transform="translate(0,0)"><line stroke="#1f77b4" stroke-width="2.5" x1="-1" x2="2" y1="1.25" y2="1.25"/><circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="0" cy="1.25"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"></div></div></foreignObject></g></g></svg>
