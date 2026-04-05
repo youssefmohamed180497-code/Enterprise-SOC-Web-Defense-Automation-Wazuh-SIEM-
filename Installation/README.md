@@ -29,8 +29,8 @@ Copy the code below and paste it directly into your terminal:
 
 <pre>
 curl -sO [https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_native.sh](https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_native.sh)
-chmod +x install_wazuh_native.sh.sh
-sudo ./install_wazuh_native.sh.sh
+chmod +x install_wazuh_native.sh
+sudo ./install_wazuh_native.sh
 </pre>
 
 
