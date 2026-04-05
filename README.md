@@ -93,7 +93,7 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 
 1. FIM File Operations (6 Rules)
 
-   | Rule ID | Name | Description | Severity |
+| Rule ID | Name | Description | Severity |
 | :--- | :--- | :--- | :---: |
 | **100041** | Critical File Modified | Detects changes to `/etc/passwd`, `/etc/shadow`, system binaries | 13 |
 | **100042** | SUID Binary Added | New SUID/SGID file detected (Potential privilege escalation) | 12 |
@@ -101,7 +101,6 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **100044** | Cron Persistence | New cron job added to system or user crontabs | 11 |
 | **100045** | Startup Script Modified | Changes to `/etc/rc.local`, systemd services, init.d | 10 |
 | **100046** | SSH Key Authorized_keys | New SSH key added to `authorized_keys` file | 12 |
-
 2. Remote Access Monitoring - RDP & SSH (5 Rules)
 
 
