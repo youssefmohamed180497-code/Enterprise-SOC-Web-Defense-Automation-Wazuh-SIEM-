@@ -177,6 +177,52 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **101321** | Sudoers File Modified | Unauthorized edit of `/etc/sudoers` or using `visudo` | 13 |
 | **101322** | Sudo Exploit Attempt | Detection of known CVE exploits (e.g., CVE-2021-3156) | 15 |
 
+8. Sudo & Privilege Escalation (3 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **101320** | Sudo Command Executed | General logging of all `sudo` command executions | 4 |
+| **101321** | Sudoers File Modified | Detection of `visudo` or direct edits to `/etc/sudoers` | 13 |
+| **101322** | Sudo Exploit Attempt | Detection of known CVE exploits (e.g., Baron Samedit CVE-2021-3156) | 15 |
+
+9. User Account & Group Changes (5 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **101330** | User Added | `useradd` or `adduser` command executed | 8 |
+| **101331** | User Deleted | `userdel` command executed | 9 |
+| **101332** | Password Changed | `passwd` command targeting root or administrative accounts | 7 |
+| **101340** | Group Modified | `usermod -g` or `groupadd` execution | 7 |
+| **101341** | File Permission Changed | Critical permission changes like `chmod 777` or SUID `+s` | 10 |
+
+10. File & System Integrity (11 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **101400** | System Binary Modified | Hash change detected in `/bin`, `/sbin`, or `/usr/bin` | 15 |
+| **101401** | Library Injection | `LD_LIBRARY_PATH` modification or suspicious `.so` files | 11 |
+| **101402** | Kernel Module Modified | Unauthorized changes in `/lib/modules` (Rootkit indicator) | 13 |
+| **101403** | Bootloader Modified | GRUB or MBR tampering detected | 14 |
+| **101404** | PAM Configuration Changed | Modifications to `/etc/pam.d/` (Authentication bypass) | 12 |
+| **101407** | Log Tampering | Deletion or unauthorized modification of `/var/log` files | 13 |
+| **101408** | Audit Log Cleared | Attempts to clear logs via `auditctl` or logrotate abuse | 14 |
+| **101440** | Rootkit Indicator | Process binding to privileged ports (<1024) without permission | 12 |
+
+11. Network Security & Lateral Movement (2 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **101500** | SMB/Windows Admin Share | Access to administrative shares (ADMIN$, C$, IPC$) | 10 |
+| **101511** | PsExec Execution | Detection of `PsExec` or similar remote execution tools | 12 |
+
+12. Web Application Security (3 Rules)
+
+| Rule ID | Name | Description | Severity |
+| :--- | :--- | :--- | :---: |
+| **102010** | XSS Precision | Detection of `<script>`, `alert()`, or `cookie` in URLs | 10 |
+| **102020** | Path Traversal | Detection of `../`, `/etc/passwd`, or URL encoded traversal | 12 |
+| **102030** | SQL Injection | Detection of `UNION SELECT`, `--`, or `OR 1=1` patterns | 14 |
+
 
 
 
