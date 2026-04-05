@@ -9,7 +9,7 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 1.  Navigate to your Wazuh Manager terminal.
 2.  Open the local rules file:
 
-<pre>
+
 ```bash
 cat <<'EOF' > install_wazuh.sh
 #!/bin/bash
@@ -23,7 +23,7 @@ EOF
 
 chmod +x install_wazuh.sh
 sudo ./install_wazuh.sh
-</pre>
+
 
 
 1. Deployment Options (Choose one)
