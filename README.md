@@ -100,12 +100,12 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **100043** | Web Shell Upload | PHP/JSP/ASPX file uploaded to web directories | 14 |
 | **100044** | Cron Persistence | New cron job added to system or user crontabs | 11 |
 | **100045** | Startup Script Modified | Changes to `/etc/rc.local`, systemd services, init.d | 10 |
-| **100046** | SSH Key Authorized_keys | New SSH key added to `authorized_keys` file | 12 | 
+| **100046** | SSH Key Authorized_keys | New SSH key added to `authorized_keys` file | 12 |
 
 2. Remote Access Monitoring - RDP & SSH (5 Rules)
 
 
-   | Rule ID | Name | Description | Severity |
+| Rule ID | Name | Description | Severity |
 | :--- | :--- | :--- | :---: |
 | **100100** | RDP Brute Force | 5+ failed RDP logins within 5 minutes | 10 |
 | **100101** | RDP Successful After Brute | Successful RDP login after multiple failures (Account Takeover) | 12 |
@@ -113,10 +113,9 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **100151** | SSH Off-Hours Login | SSH login outside business hours (weekend/night) | 6 |
 | **100152** | SSH Root Login Enabled | Direct root login via SSH detected | 14 |
 
+3. Windows Advanced Threats (8 Rules)
 
-4. Windows Advanced Threats (8 Rules)
-
-   | Rule ID | Name | Description | Severity |
+| Rule ID | Name | Description | Severity |
 | :--- | :--- | :---: | :---: |
 | **100200** | LSASS Memory Access | Process attempting to access `lsass.exe` (Mimikatz style) | 15 |
 | **100201** | SAM Database Dump | Attempt to read SAM/SYSTEM/SECURITY registry hives | 15 |
