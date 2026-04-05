@@ -93,7 +93,7 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 
 1. FIM File Operations (6 Rules)
 
-  | Rule ID | Name | Description | Severity |
+   | Rule ID | Name | Description | Severity |
 | :--- | :--- | :--- | :---: |
 | **100041** | Critical File Modified | Detects changes to `/etc/passwd`, `/etc/shadow`, system binaries | 13 |
 | **100042** | SUID Binary Added | New SUID/SGID file detected (Potential privilege escalation) | 12 |
@@ -104,6 +104,7 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 
 2. Remote Access Monitoring - RDP & SSH (5 Rules)
 
+
    | Rule ID | Name | Description | Severity |
 | :--- | :--- | :--- | :---: |
 | **100100** | RDP Brute Force | 5+ failed RDP logins within 5 minutes | 10 |
@@ -112,7 +113,8 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 | **100151** | SSH Off-Hours Login | SSH login outside business hours (weekend/night) | 6 |
 | **100152** | SSH Root Login Enabled | Direct root login via SSH detected | 14 |
 
-3. Windows Advanced Threats (8 Rules)
+
+4. Windows Advanced Threats (8 Rules)
 
    | Rule ID | Name | Description | Severity |
 | :--- | :--- | :---: | :---: |
