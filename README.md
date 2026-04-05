@@ -14,6 +14,16 @@ Endpoints: Windows Server 2022, Windows 10/11, and Kali Linux.
 
 Monitored Grouping: Specialized policies for Linux and Windows agents.
 
+🚀Automated Deployment : 
+Copy the code below and paste it directly into your terminal:
+
+<pre>
+curl -sO [https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_docker.sh](https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_docker.sh)
+chmod +x install_wazuh_docker.sh
+sudo ./install_wazuh_docker.sh
+</pre>
+
+
 🌐 Web Application Security (WAF Mode)
 
 I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world web attacks.
@@ -254,13 +264,4 @@ Brute Force Correlation: Successfully flagged automated SSH attacks and account 
 
 I will update rules and decoders if the projects I work on require them.
 
-<pre>
- Automated Deployment
-Copy the code below and paste it directly into your terminal
-    
-curl -sO [https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_docker.sh](https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_docker.sh)
-chmod +x install_wazuh_docker.sh
-sudo ./install_wazuh_docker.sh
 
-
-</pre>
