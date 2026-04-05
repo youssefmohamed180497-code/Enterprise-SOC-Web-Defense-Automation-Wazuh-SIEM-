@@ -30,15 +30,15 @@ sudo ./install_wazuh_native.sh.sh
 </pre>
 
 
-### Endpoint Configuration (Adding Agents) > open File Linux Agent or Windows Agent 
+3- Endpoint Configuration (Adding Agents) > open File Linux Agent or Windows Agent 
 
 
-### Download and apply the custom ruleset
+4- Download and apply the custom ruleset
 <pre>
 sudo curl -so /var/ossec/etc/rules/local_rules.xml https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/rules/local_rules.xml
 </pre>
 
-### Fix permissions
+5- Fix permissions
 <pre>
 sudo chown wazuh:wazuh /var/ossec/etc/rules/local_rules.xml
 sudo chmod 660 /var/ossec/etc/rules/local_rules.xml
