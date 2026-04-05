@@ -19,8 +19,9 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
     Detection: Identified malicious SQL payloads in Apache logs.
 
     Alert: Rule 31164 - SQL injection attempt.
+   ![SQL injection](Screenshots/SQL%20Injection.png)
 
-2. Cross-Site Scripting (XSS)
+3. Cross-Site Scripting (XSS)
 
     Scenarios: Reflected and DOM-based XSS attacks.
 
@@ -34,6 +35,7 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
     Detection: Captured directory traversal attempts (/etc/passwd).
 
     Alert: Rule 102020 (Level 12 severity).
+   ![LFI](Screenshots/LFI%20Alert.png)
 
 🔍 Threat Intelligence & Malware Analysis
 
