@@ -15,6 +15,7 @@ Endpoints: Windows Server 2022, Windows 10/11, and Kali Linux.
 Monitored Grouping: Specialized policies for Linux and Windows agents.
 
 🚀Automated Deployment : 
+1-Install Wazuh Manager inside Container 
 Copy the code below and paste it directly into your terminal:
 
 <pre>
@@ -23,6 +24,14 @@ chmod +x install_wazuh_docker.sh
 sudo ./install_wazuh_docker.sh
 </pre>
 
+2-Install Wazuh Manager Native
+Copy the code below and paste it directly into your terminal:
+
+<pre>
+curl -sO [https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_native.sh](https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_native.sh)
+chmod +x install_wazuh_docker.sh
+sudo ./install_wazuh_docker.sh
+</pre>
 
 🌐 Web Application Security (WAF Mode)
 
