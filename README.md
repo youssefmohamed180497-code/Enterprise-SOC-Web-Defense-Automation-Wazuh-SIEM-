@@ -6,7 +6,7 @@ This project showcases a fully automated Security Operations Center (SOC) built 
 
 ![Wazuh Overview](Screenshots/Overview%20.png)
 
-🏗️ Architecture & Lab Setup
+### 🏗️ Architecture & Lab Setup
 
 SIEM Stack: Containerized Wazuh (Manager, Indexer, Dashboard).
 
@@ -14,7 +14,7 @@ Endpoints: Windows Server 2022, Windows 10/11, and Kali Linux.
 
 Monitored Grouping: Specialized policies for Linux and Windows agents.
 
-🚀 Quick Navigation
+### 🚀 Quick Navigation
 
 To get this project running in your environment, follow the dedicated guides below:
 
@@ -25,7 +25,7 @@ Custom Decoders: Logic for parsing specialized log formats.
 Detection Rules: The core ruleset for threat detection.
 
 
-🌐 Web Application Security (WAF Mode)
+### 🌐 Web Application Security (WAF Mode)
 
 I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world web attacks.
 1. SQL Injection (SQLi)
@@ -52,7 +52,7 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
    ![LFI](Screenshots/LFI%20Alert.png)
    ![LFI Filter](Screenshots/LFI%20Filter.png)
 
-🔍 Threat Intelligence & Malware Analysis
+### 🔍 Threat Intelligence & Malware Analysis
 
 1. VirusTotal Integration
 
@@ -83,7 +83,7 @@ All custom rules and alerts are mapped to MITRE ATT&CK techniques (e.g., Persist
 | **101500 - 101511** | T1021, T1570 | Lateral Movement |
 | **102010 - 102030** | T1059, T1190 | Execution, Initial Access (Web Attacks) |
 
-🛡️ Advanced Detection Logic (The Brain)
+### 🛡️ Advanced Detection Logic (The Brain)
 
 My custom ruleset consists of 80+ specialized detection rules, designed to reduce false positives and provide high-fidelity alerts. These rules are mapped to the MITRE ATT&CK matrix, covering the full attack lifecycle.
 
@@ -239,7 +239,7 @@ My custom ruleset consists of 80+ specialized detection rules, designed to reduc
 
 
 
-📊 Detection Logic Strategy
+### 📊 Detection Logic Strategy
 How I Optimized the 80 Rules:
 
 1-Noise Reduction: By using if_sid and if_group, I ensure that high-level alerts only fire when a baseline of suspicious activity is met. "Implemented parent-child rule relationships to suppress repetitive noise and only escalate verified attack chains.".
@@ -248,13 +248,13 @@ How I Optimized the 80 Rules:
 
 3-Cross-Platform Visibility: Rules are designed to cover both Windows (Sysmon) and Linux (Auditd/Suricata) simultaneously.
 
-⚠️ Incident Alerting
+### ⚠️ Incident Alerting
 
 Critical Alerts: Level 15 alerts trigger automated SMTP email notifications for immediate response.
 
 Resource Monitoring: Real-time alerting on system health and memory exhaustion.
     
-🚀 Key Use Cases Verified
+### 🚀 Key Use Cases Verified
 
 Malware Detection: Identified the EICAR test string and verified its malicious reputation via VirusTotal.
 
