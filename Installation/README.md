@@ -10,6 +10,7 @@ Follow these steps to replicate this SOC environment and deploy the custom rules
 
 
 🚀Automated Deployment : 
+
 1-Install Wazuh Manager inside Container 
 Copy the code below and paste it directly into your terminal:
 
