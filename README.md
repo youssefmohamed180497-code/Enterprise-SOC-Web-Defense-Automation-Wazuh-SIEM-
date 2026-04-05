@@ -38,6 +38,7 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
 
     Alert: Rule 102020 (Level 12 severity).
    ![LFI](Screenshots/LFI%20Alert.png)
+   ![LFI Filter](Screenshots/LFI%20Filter.png)
 
 🔍 Threat Intelligence & Malware Analysis
 
