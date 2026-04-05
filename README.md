@@ -59,7 +59,7 @@ All custom rules and alerts are mapped to MITRE ATT&CK techniques (e.g., Persist
 
 My custom ruleset consists of 80+ specialized detection rules, designed to reduce false positives and provide high-fidelity alerts. These rules are mapped to the MITRE ATT&CK matrix, covering the full attack lifecycle.
 
-| المجموعة (Category) | عدد القواعد (Count) | نطاق الـ IDs (Range) |
+| Group (Category) |Rules Numbers (Count) |  IDs (Range) |
 | :--- | :---: | :--- |
 | **FIM File Operations** | 5 | 100041 - 100046 |
 | **Remote Access Monitoring (RDP & SSH)** | 6 | 100100 - 100152 |
