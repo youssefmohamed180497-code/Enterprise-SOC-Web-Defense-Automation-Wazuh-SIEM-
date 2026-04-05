@@ -255,6 +255,9 @@ Brute Force Correlation: Successfully flagged automated SSH attacks and account 
 I will update rules and decoders if the projects I work on require them.
 
 <pre>
+ Automated Deployment
+Copy the code below and paste it directly into your terminal
+    
 curl -sO [https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_docker.sh](https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/installation/install_wazuh_docker.sh)
 chmod +x install_wazuh_docker.sh
 sudo ./install_wazuh_docker.sh
