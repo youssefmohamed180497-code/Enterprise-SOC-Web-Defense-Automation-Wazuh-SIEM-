@@ -1,0 +1,5 @@
+Go to Agents Management > Summary > Depoly new agent > Choose DEB amd64 > Wazuh Manager IP > Agent Name > Select Group Linux > copy to CMD agent
+wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.14.1-1_amd64.deb && sudo WAZUH_MANAGER='Wazuh Manager IP' WAZUH_AGENT_GROUP='linux' WAZUH_AGENT_NAME='Agent Name' dpkg -i ./wazuh-agent_4.14.1-1_amd64.deb
+sudo systemctl daemon-reload
+sudo systemctl enable wazuh-agent
+sudo systemctl start wazuh-agent
