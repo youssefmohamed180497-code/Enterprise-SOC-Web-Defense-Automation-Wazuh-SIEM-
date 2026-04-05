@@ -37,7 +37,7 @@ sudo ./install_wazuh_docker.sh
 sudo curl -so /var/ossec/etc/rules/local_rules.xml https://raw.githubusercontent.com/youssefmohamed180497-code/Enterprise-SOC-Web-Defense-Automation-Wazuh-SIEM-/main/rules/local_rules.xml
 </pre>
 
-# Fix permissions
+### Fix permissions
 <pre>
 sudo chown wazuh:wazuh /var/ossec/etc/rules/local_rules.xml
 sudo chmod 660 /var/ossec/etc/rules/local_rules.xml
