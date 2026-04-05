@@ -59,6 +59,23 @@ All custom rules and alerts are mapped to MITRE ATT&CK techniques (e.g., Persist
 
 My custom ruleset consists of 80+ specialized detection rules, designed to reduce false positives and provide high-fidelity alerts. These rules are mapped to the MITRE ATT&CK matrix, covering the full attack lifecycle.
 
+| المجموعة (Category) | عدد القواعد (Count) | نطاق الـ IDs (Range) |
+| :--- | :---: | :--- |
+| **FIM File Operations** | 5 | 100041 - 100046 |
+| **Remote Access Monitoring (RDP & SSH)** | 6 | 100100 - 100152 |
+| **Windows Advanced Threats** | 8 | 100200 - 100400 |
+| **USB Monitoring** | 1 | 100600 |
+| **Auditd Advanced Rules** | 15 | 101100 - 101191 |
+| **Fraud Detection** | 20 | 101200 - 101262 |
+| **Session Anomalies** | 1 | 101310 |
+| **Sudo/Privilege Escalation** | 3 | 101320 - 101322 |
+| **User Account Changes** | 3 | 101330 - 101332 |
+| **Group/Permission Changes** | 2 | 101340 - 101341 |
+| **File Integrity & System Integrity** | 11 | 101400 - 101440 |
+| **Network Security & Lateral Movement** | 2 | 101500 - 101511 |
+| **Web Security** | 2 | 102010 - 102020 |
+
+
 1. Web Application Defense (L7/WAF Logic)
 
     XSS Precision (Rule 102010): Instead of generic web alerts, this rule specifically identifies script tags and alert functions in decoded URLs.
