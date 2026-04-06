@@ -7,4 +7,4 @@ sudo systemctl enable auditd
 sudo systemctl start auditd
 
 
-after that copy audit.rules to this path 
+after that copy audit.rules to this path  /etc/audit/rules.d/audit.rules
