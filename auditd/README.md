@@ -5,3 +5,6 @@ sudo apt install auditd -y
 sudo systemctl enable auditd
 
 sudo systemctl start auditd
+
+
+after that copy audit.rules to this path 
