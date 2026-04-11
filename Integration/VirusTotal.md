@@ -1,4 +1,5 @@
 #add this text to /var/ossec/etc/ossec.conf
+
   <ossec_config>
     <integration>
       <name>virustotal</name>
