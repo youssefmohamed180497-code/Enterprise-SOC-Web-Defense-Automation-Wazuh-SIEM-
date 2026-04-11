@@ -64,6 +64,7 @@ I integrated DVWA (Damn Vulnerable Web App) to simulate and detect real-world we
    ![File added](Screenshots/File%20Added%20%26%20Permission.png)
    ![LFI](Screenshots/Hash%20file.png)
    ![LFI](Screenshots/Virus%20total%20hash%20scan.png)
+   ![LFI](Screenshots/Virustotal.png)
 
 3.  MITRE ATT&CK® Framework Mapping
 
