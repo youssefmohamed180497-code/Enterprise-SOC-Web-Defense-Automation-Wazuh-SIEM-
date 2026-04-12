@@ -14,7 +14,6 @@ This project showcases a fully automated Security Operations Center (SOC) built 
 
 * Monitored Grouping: Specialized policies for Linux and Windows agents.
 
-* External API: VirusTotal (Threat Intelligence)
 
 ### 🚀 Quick Navigation
 
@@ -25,6 +24,8 @@ To get this project running in your environment, follow the dedicated guides bel
 * Detection Rules: The core ruleset for threat detection.
 
 * Custom Decoders: Logic for parsing specialized log formats.
+
+* External API: VirusTotal (Threat Intelligence)
 
 
 
