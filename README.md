@@ -146,8 +146,6 @@ Brute Force Correlation: Successfully flagged automated SSH attacks and account 
 
 ### 🔜 Future Enhancements (Roadmap)
 
-[ ] Implement Active Response to automatically delete files flagged as malicious.
-
 [ ] Integrate YARA rules for custom malware scanning.
 
 [ ] Set up Telegram/Slack notifications for high-severity alerts.
