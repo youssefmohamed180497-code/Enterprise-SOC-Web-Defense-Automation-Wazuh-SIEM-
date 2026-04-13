@@ -100,6 +100,25 @@ How I Optimized the 80 Rules:
 
 3-Cross-Platform Visibility: Rules are designed to cover both Windows (Sysmon) and Linux (Auditd/Suricata) simultaneously.
 
+### 🛡️ Automated Threat Mitigation (Active Response)
+
+This is the "Action" part of the SOC. I configured the system to not only detect threats but also to take immediate action to neutralize them.
+
+How it works:
+
+    Trigger: Once the VirusTotal integration identifies a file as malicious (Rule 87105), it triggers the Active Response module.
+
+    Action: The Wazuh Manager sends a control message to the Agent to execute a custom remediation script.
+
+    Result: The malicious file is automatically deleted from the endpoint, and the action is logged.
+
+Implementation Details:
+
+    Custom Script: A Bash script (remove-threat.sh) was developed to handle the file deletion process on Linux endpoints safely.
+
+    Configuration: Linked the specific VirusTotal rule ID to the execution command in the Manager's global configuration
+
+
 ### ⚠️ Incident Alerting
 
 Critical Alerts: Level 15 alerts trigger automated SMTP email notifications for immediate response.
