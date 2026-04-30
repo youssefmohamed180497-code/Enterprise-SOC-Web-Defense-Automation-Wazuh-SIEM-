@@ -112,6 +112,11 @@ How it works:
 
   * Result: The malicious file is automatically deleted from the endpoint, and the action is logged.
 
+  * YARA Active Response Integration
+
+        This project utilizes YARA for real-time malware scanning triggered by Wazuh's Active Response module.
+
+
 Implementation Details:
 
   * Custom Script: A Bash script (remove-threat.sh) was developed to handle the file deletion process on Linux endpoints safely.
