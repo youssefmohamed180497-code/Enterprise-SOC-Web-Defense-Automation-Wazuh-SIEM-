@@ -9,7 +9,7 @@
   <group>syscheck</group>
   <alert_format>json</alert_format>
 </integration>
-
+```
 
 
 
