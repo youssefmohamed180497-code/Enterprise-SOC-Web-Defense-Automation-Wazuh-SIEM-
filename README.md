@@ -114,7 +114,7 @@ How it works:
 
   * YARA Active Response Integration
 
-        This project utilizes YARA for real-time malware scanning triggered by Wazuh's Active Response module.
+    This project utilizes YARA for real-time malware scanning triggered by Wazuh's Active Response module.
 
 
 Implementation Details:
